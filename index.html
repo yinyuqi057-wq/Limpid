@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>翻译学期刊最新文献追踪 | Translation Studies Journals Tracker</title>
+<style>
+/* ===== CSS Variables ===== */
+:root {
+  --bg: #f8f6f2;
+  --card-bg: #ffffff;
+  --text: #1a1a1a;
+  --text-secondary: #6b6b6b;
+  --text-muted: #999;
+  --border: #e6e0d8;
+  --accent: #8b5e3c;
+  --accent-light: #f3ede6;
+  --tag-bg: #f0e8dd;
+  --tag-text: #7a4f2e;
+  --online-badge: #2d7d46;
+  --rss-badge: #2563eb;
+  --manual-badge: #c27a3a;
+  --tf-color: #c0392b;
+  --jb-color: #8e44ad;
+  --error-bg: #fef0f0;
+  --error-text: #b91c1c;
+  --error-border: #f5c6c6;
+  --shadow: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-hover: 0 6px 24px rgba(0,0,0,0.08);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --transition: 0.2s ease;
+}
+[data-theme="dark"] {
+  --bg: #181818;
+  --card-bg: #242424;
+  --text: #e4e0d8;
+  --text-secondary: #a8a49c;
+  --text-muted: #78756e;
+  --border: #38342e;
+  --accent: #d4a76a;
+  --accent-light: #2a241c;
+  --tag-bg: #2e281e;
+  --tag-text: #d4a86a;
+  --online-badge: #3cb371;
+  --rss-badge: #60a5fa;
+  --manual-badge: #e0a060;
+  --tf-color: #e74c3c;
+  --jb-color: #af7ac5;
+  --error-bg: #2a1515;
+  --error-text: #f5a3a3;
+  --error-border: #5c2020;
+  --shadow: 0 1px 3px rgba(0,0,0,0.25);
+  --shadow-hover: 0 6px 24px rgba(0,0,0,0.35);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+  transition: background var(--transition), color var(--transition);
+}
+
+/* ===== Header ===== */
+.header {
+  position: sticky; top: 0; z-index: 100;
+  background: color-mix(in srgb, var(--bg) 90%, transparent);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 0;
+}
+.header-inner {
+  max-width: 1360px; margin: 0 auto; padding: 0 28px;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap;
+}
+.logo {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 1.2rem; font-weight: 800; color: var(--accent);
+  letter-spacing: -0.3px;
+}
+.logo-icon { font-size: 1.5rem; }
+.header-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+/* ===== Buttons ===== */
+.btn-icon {
+  width: 40px; height: 40px; border-radius: 50%;
+  border: 1px solid var(--border); background: var(--card-bg);
+  cursor: pointer; font-size: 1.1rem; color: var(--text);
+  display: flex; align-items: center; justify-content: center;
+  transition: all var(--transition);
+}
+.btn-icon:hover { border-color: var(--accent); background: var(--accent-light); }
+
+.btn-primary {
+  background: var(--accent); color: #fff; border: none;
+  padding: 10px 22px; border-radius: 24px; cursor: pointer;
+  font-size: 0.88rem; font-weight: 600; letter-spacing: 0.2px;
+  display: inline-flex; align-items: center; gap: 6px;
+  transition: all var(--transition);
+}
+.btn-primary:hover { opacity: 0.86; transform: translateY(-1px); }
+.btn-primary:active { transform: translateY(0); }
+.btn-primary:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
+
+.last-updated { font-size: 0.78rem; color: var(--text-muted); white-space: nowrap; }
+
+/* ===== Stats Row ===== */
+.stats-row {
+  max-width: 1360px; margin: 0 auto; padding: 14px 28px 0;
+  display: flex; gap: 10px; flex-wrap: wrap;
+}
+.stat-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 0.8rem; color: var(--text-secondary);
+  background: var(--card-bg); border: 1px solid var(--border);
+  padding: 6px 14px; border-radius: 20px;
+}
+.stat-pill strong { color: var(--accent); font-weight: 700; }
+.stat-pill.crossref { border-left: 3px solid var(--online-badge); }
+.stat-pill.rss { border-left: 3px solid var(--rss-badge); }
+.stat-pill.manual { border-left: 3px solid var(--manual-badge); }
+
+/* ===== Filter Bar ===== */
+.filter-bar {
+  max-width: 1360px; margin: 12px auto 0; padding: 0 28px;
+  display: flex; gap: 12px; flex-wrap: wrap; align-items: center;
+}
+.search-input {
+  flex: 1; min-width: 200px; max-width: 420px;
+  padding: 10px 18px; border: 1px solid var(--border);
+  border-radius: 24px; background: var(--card-bg); color: var(--text);
+  font-size: 0.88rem; outline: none;
+  transition: all var(--transition);
+}
+.search-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
+.search-input::placeholder { color: var(--text-muted); }
+
+.select-input {
+  padding: 10px 16px; border: 1px solid var(--border);
+  border-radius: 24px; background: var(--card-bg); color: var(--text);
+  font-size: 0.85rem; outline: none; cursor: pointer;
+  transition: all var(--transition); max-width: 200px;
+}
+.select-input:focus { border-color: var(--accent); }
+
+/* ===== Source Toggle ===== */
+.source-toggles {
+  display: flex; gap: 6px; flex-wrap: wrap;
+}
+.toggle-chip {
+  padding: 6px 14px; border-radius: 16px; border: 1px solid var(--border);
+  background: var(--card-bg); font-size: 0.76rem; cursor: pointer;
+  font-weight: 500; color: var(--text-secondary);
+  transition: all var(--transition); user-select: none;
+  white-space: nowrap;
+}
+.toggle-chip:hover { border-color: var(--accent); }
+.toggle-chip.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* ===== Main Content ===== */
+.main {
+  max-width: 1360px; margin: 0 auto; padding: 0 28px 48px;
+}
+.section-header {
+  display: flex; align-items: center; gap: 10px;
+  margin: 28px 0 14px; padding-bottom: 10px;
+  border-bottom: 2px solid var(--accent-light);
+}
+.section-header h2 { font-size: 1rem; font-weight: 700; color: var(--text-secondary); }
+.subsection-header {
+  display: flex; align-items: center; gap: 8px;
+  margin: 20px 0 10px;
+  font-size: 0.85rem; font-weight: 700; color: var(--text-secondary);
+}
+.subsection-header .publisher-dot {
+  width: 10px; height: 10px; border-radius: 50%; display: inline-block;
+}
+.subsection-header .publisher-dot.tf { background: var(--tf-color); }
+.subsection-header .publisher-dot.jb { background: var(--jb-color); }
+.badge {
+  font-size: 0.72rem; font-weight: 700; padding: 3px 12px; border-radius: 12px;
+  color: #fff; letter-spacing: 0.3px;
+}
+.badge.live { background: var(--online-badge); }
+.badge.rss { background: var(--rss-badge); }
+.badge.manual { background: var(--manual-badge); }
+.badge.tf { background: var(--tf-color); }
+.badge.jb { background: var(--jb-color); }
+
+/* ===== Articles Grid ===== */
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 16px;
+}
+
+/* ===== Article Card ===== */
+.article-card {
+  background: var(--card-bg); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px 22px;
+  box-shadow: var(--shadow); transition: all var(--transition);
+  display: flex; flex-direction: column; gap: 10px;
+}
+.article-card:hover {
+  box-shadow: var(--shadow-hover); transform: translateY(-2px);
+  border-color: var(--accent);
+}
+.card-journal {
+  font-size: 0.73rem; font-weight: 700; color: var(--accent);
+  letter-spacing: 0.6px;
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+}
+.card-journal .publisher-tag {
+  font-size: 0.65rem; font-weight: 600; padding: 1px 7px; border-radius: 8px;
+  color: #fff; letter-spacing: 0.2px;
+}
+.card-journal .publisher-tag.tf { background: var(--tf-color); }
+.card-journal .publisher-tag.jb { background: var(--jb-color); }
+.card-source-tag {
+  font-size: 0.65rem; font-weight: 700; padding: 2px 8px; border-radius: 10px;
+  letter-spacing: 0.3px; color: #fff; margin-left: auto;
+}
+.card-source-tag.crossref-src { background: var(--online-badge); }
+.card-source-tag.rss-src { background: var(--rss-badge); }
+
+.card-title {
+  font-size: 0.96rem; font-weight: 650; line-height: 1.45; color: var(--text);
+}
+.card-title a { color: inherit; text-decoration: none; transition: color var(--transition); }
+.card-title a:hover { color: var(--accent); }
+
+.card-meta {
+  display: flex; flex-wrap: wrap; gap: 6px 16px;
+  font-size: 0.78rem; color: var(--text-muted);
+}
+.card-meta span { display: inline-flex; align-items: center; gap: 4px; }
+.card-authors {
+  font-size: 0.8rem; color: var(--text-secondary); line-height: 1.4;
+  overflow: hidden; text-overflow: ellipsis; display: -webkit-box;
+  -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+}
+.card-abstract {
+  font-size: 0.78rem; color: var(--text-muted); line-height: 1.5;
+  overflow: hidden; text-overflow: ellipsis; display: -webkit-box;
+  -webkit-line-clamp: 4; -webkit-box-orient: vertical;
+}
+.card-keywords {
+  display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto;
+}
+.keyword-tag {
+  font-size: 0.7rem; padding: 3px 10px;
+  background: var(--tag-bg); color: var(--tag-text);
+  border-radius: 12px; white-space: nowrap;
+  transition: background var(--transition);
+}
+.keyword-tag:hover { background: var(--accent); color: #fff; cursor: default; }
+.card-link {
+  font-size: 0.8rem; color: var(--accent); text-decoration: none;
+  font-weight: 600; display: inline-flex; align-items: center; gap: 4px;
+  transition: gap var(--transition);
+}
+.card-link:hover { gap: 8px; }
+
+/* ===== Manual Journal Tile ===== */
+.manual-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+.manual-tile {
+  background: var(--card-bg); border: 1px dashed var(--border);
+  border-radius: var(--radius); padding: 24px 18px; text-align: center;
+  transition: all var(--transition);
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+}
+.manual-tile:hover { border-color: var(--accent); box-shadow: var(--shadow-hover); }
+.manual-icon { font-size: 2.2rem; opacity: 0.6; }
+.manual-name { font-weight: 700; font-size: 0.95rem; color: var(--text); }
+.manual-name-cn { font-size: 0.82rem; color: var(--text-muted); }
+.manual-pub { font-size: 0.72rem; color: var(--text-muted); }
+.manual-link {
+  display: inline-block; margin-top: 8px; padding: 8px 22px;
+  background: var(--accent); color: #fff; border-radius: 20px;
+  text-decoration: none; font-weight: 600; font-size: 0.82rem;
+  transition: all var(--transition);
+}
+.manual-link:hover { opacity: 0.85; transform: translateY(-1px); }
+
+/* ===== Loading & Empty ===== */
+.loading-block {
+  grid-column: 1 / -1; text-align: center; padding: 48px 20px;
+  color: var(--text-muted);
+}
+.spinner {
+  display: inline-block; width: 36px; height: 36px;
+  border: 3px solid var(--border); border-top-color: var(--accent);
+  border-radius: 50%; animation: spin 0.7s linear infinite;
+  margin-bottom: 12px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.empty-block {
+  grid-column: 1 / -1; text-align: center; padding: 48px 20px;
+  color: var(--text-muted);
+}
+.empty-icon { font-size: 3rem; display: block; margin-bottom: 12px; }
+
+/* ===== Journal Status Panel ===== */
+.journal-status-panel {
+  max-width: 1360px; margin: 12px 28px 0;
+  display: flex; flex-wrap: wrap; gap: 6px;
+}
+.journal-status-tag {
+  font-size: 0.7rem; padding: 4px 10px; border-radius: 12px;
+  display: inline-flex; align-items: center; gap: 4px;
+  border: 1px solid var(--border); background: var(--card-bg);
+  color: var(--text-secondary);
+  transition: all var(--transition);
+}
+.journal-status-tag.ok { border-color: var(--online-badge); color: var(--online-badge); }
+.journal-status-tag.error { border-color: var(--error-border); color: var(--error-text); }
+.journal-status-tag.loading { border-color: var(--rss-badge); color: var(--rss-badge); animation: pulse 1.5s infinite; }
+.journal-status-tag.stale { border-color: var(--manual-badge); color: var(--manual-badge); }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+/* ===== Progress Bar ===== */
+.progress-bar-wrap {
+  max-width: 1360px; margin: 8px 28px; display: none;
+}
+.progress-bar-wrap.active { display: block; }
+.progress-outer {
+  height: 4px; background: var(--border); border-radius: 2px;
+  overflow: hidden;
+}
+.progress-inner {
+  height: 100%; background: var(--accent); border-radius: 2px;
+  width: 0%; transition: width 0.3s ease;
+}
+.progress-text { font-size: 0.72rem; color: var(--text-muted); margin-top: 4px; }
+
+/* ===== Error Toast ===== */
+.error-toast {
+  position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+  background: var(--error-bg); color: var(--error-text); border: 1px solid var(--error-border);
+  padding: 10px 20px; border-radius: 24px; font-size: 0.82rem;
+  font-weight: 500; z-index: 1000; display: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  max-width: 90vw; text-align: center;
+}
+.error-toast.show { display: block; animation: fadeInUp 0.3s ease; }
+@keyframes fadeInUp { from { opacity: 0; transform: translateX(-50%) translateY(12px); } to { opacity: 1; transform: translateX(-50%) translateY(0); } }
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center; padding: 28px 20px; font-size: 0.75rem;
+  color: var(--text-muted); border-top: 1px solid var(--border);
+}
+.footer a { color: var(--accent); text-decoration: none; }
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .articles-grid { grid-template-columns: 1fr; }
+  .manual-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+  .header-inner { flex-direction: column; align-items: flex-start; }
+  .filter-bar { flex-direction: column; }
+  .search-input { max-width: 100%; }
+  .select-input { max-width: 100%; }
+  .journal-status-panel { gap: 4px; }
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <span class="logo-icon">📖</span>
+      <span>翻译学期刊文献追踪</span>
+    </div>
+    <div class="header-actions">
+      <span class="last-updated" id="lastUpdated">准备加载…</span>
+      <button class="btn-icon" id="themeBtn" title="切换暗色/亮色模式" onclick="toggleTheme()">🌓</button>
+      <button class="btn-primary" id="refreshBtn">
+        🔄 刷新全部
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- JOURNAL STATUS BAR -->
+<div class="journal-status-panel" id="journalStatusPanel"></div>
+
+<!-- PROGRESS BAR -->
+<div class="progress-bar-wrap" id="progressWrap">
+  <div class="progress-outer"><div class="progress-inner" id="progressBar"></div></div>
+  <div class="progress-text" id="progressText"></div>
+</div>
+
+<!-- STATS -->
+<div class="stats-row">
+  <span class="stat-pill">📄 文献总数：<strong id="statTotal">—</strong></span>
+  <span class="stat-pill">📰 追踪期刊：<strong id="statJournals">12</strong></span>
+  <span class="stat-pill crossref">🟢 CrossRef 实时：<strong id="statLive">8</strong> 刊</span>
+  <span class="stat-pill rss">🔵 CNKI RSS：<strong id="statRss">3</strong> 刊</span>
+  <span class="stat-pill manual">🟠 手动访问：<strong id="statManual">1</strong> 刊</span>
+</div>
+
+<!-- FILTER -->
+<div class="filter-bar">
+  <input type="text" class="search-input" id="searchInput"
+    placeholder="🔍 搜索标题 / 作者 / 关键词 / 期刊…" oninput="render()">
+  <select class="select-input" id="journalFilter" onchange="render()">
+    <option value="all">📰 全部期刊</option>
+  </select>
+  <select class="select-input" id="sortBy" onchange="render()">
+    <option value="date-desc">🕐 最新优先</option>
+    <option value="date-asc">🕐 最早优先</option>
+    <option value="title">🔤 标题 A-Z</option>
+    <option value="journal">📰 按期刊分组</option>
+  </select>
+  <div class="source-toggles" id="sourceToggles">
+    <span class="toggle-chip active" data-src="crossref" onclick="toggleSource('crossref', this)">CrossRef</span>
+    <span class="toggle-chip active" data-src="rss" onclick="toggleSource('rss', this)">CNKI RSS</span>
+    <span class="toggle-chip active" data-src="manual" onclick="toggleSource('manual', this)">手动</span>
+  </div>
+</div>
+
+<!-- MAIN -->
+<main class="main" id="mainContent"></main>
+
+<!-- ERROR TOAST -->
+<div class="error-toast" id="errorToast"></div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  Translation Studies Journals Tracker · 数据来源：<a href="https://api.crossref.org" target="_blank">CrossRef API</a>
+  + <a href="https://rss.cnki.net" target="_blank">CNKI RSS</a>
+  · 覆盖 8 种 SSCI/A&HCI 国际期刊 + 3 种中文核心期刊 + 1 种手动追踪
+  · 数据缓存 1 小时 · 每 30 分钟自动刷新
+</footer>
+
+<script>
+/* ===================================================================
+   GLOBAL ERROR HANDLER
+   =================================================================== */
+window.addEventListener('error', function(e) {
+  console.error('[Tracker] Global error:', e.message, 'at', e.filename, 'line', e.lineno);
+  const toast = document.getElementById('errorToast');
+  if (toast) {
+    toast.textContent = '⚠️ 脚本错误：' + e.message + ' (行 ' + e.lineno + ')';
+    toast.classList.add('show');
+    setTimeout(function() { toast.classList.remove('show'); }, 8000);
+  }
+});
+
+/* ===================================================================
+   CONFIGURATION — 12 journals
+   =================================================================== */
+
+// ── Group A: Taylor & Francis (4 journals, SSCI/A&HCI) ──
+const CROSSREF_TF = [
+  { id:'perspectives',       name:'Perspectives',                              pub:'Taylor & Francis', issn:'0907-676X', siteUrl:'https://www.tandfonline.com/journals/rmps20' },
+  { id:'itt',                name:'The Interpreter and Translator Trainer',    pub:'Taylor & Francis', issn:'1750-399X', siteUrl:'https://www.tandfonline.com/journals/ritt20' },
+  { id:'translator',         name:'The Translator',                            pub:'Taylor & Francis', issn:'1355-6509', siteUrl:'https://www.tandfonline.com/journals/rtrn20' },
+  { id:'translation-studies',name:'Translation Studies',                       pub:'Taylor & Francis', issn:'1478-1700', siteUrl:'https://www.tandfonline.com/journals/rtrs20' },
+];
+
+// ── Group B: John Benjamins (4 journals, SSCI/A&HCI) ──
+const CROSSREF_JB = [
+  { id:'babel',              name:'Babel',                                     pub:'John Benjamins',   issn:'0521-9744', siteUrl:'https://benjamins.com/catalog/babel' },
+  { id:'interpreting',       name:'Interpreting',                              pub:'John Benjamins',   issn:'1384-6647', siteUrl:'https://benjamins.com/catalog/intp' },
+  { id:'target',             name:'Target',                                    pub:'John Benjamins',   issn:'0924-1884', siteUrl:'https://benjamins.com/catalog/target' },
+  { id:'tis',                name:'Translation and Interpreting Studies',      pub:'John Benjamins',   issn:'1932-2798', siteUrl:'https://benjamins.com/catalog/tis' },
+];
+
+const CROSSREF_JOURNALS = [...CROSSREF_TF, ...CROSSREF_JB];
+
+// ── Group C: CNKI RSS — 中文核心期刊 ──
+const RSS_JOURNALS = [
+  { id:'translation-horizons', name:'Translation Horizons',              nameCN:'翻译界',   pub:'外语教学与研究出版社', rssUrl:'https://rss.cnki.net/knavi/rss/FYIJ?pcode=CJFD,CCJD', siteUrl:'https://navi.cnki.net/knavi/detail?p=dYz3uf1G895HAILwB1X5320_-zI9x98xmyP9uka4qySviSN46NaLdjAxkb5iuEJDQW16QH1EN3ZdwvI6oUsW_BZi9jKA7EzJJC-IAEgxYNU=&uniplatform=NZKPT&language=CHS', issn:'2096-4388' },
+  { id:'chinese-translation',  name:'Chinese Translation Journal',       nameCN:'中国翻译', pub:'中国翻译协会',       rssUrl:'https://rss.cnki.net/knavi/rss/ZGFY?pcode=CJFD,CCJD', siteUrl:'https://navi.cnki.net/knavi/detail?p=dYz3uf1G894dv0YlQs0dLNtk8oy028iwIGx_BD33xaRAjNeFhGiqYSBKnJYyf3VTGS9fY-P7mNwBTkG2H8mL7W9mVBPFZSjzG4iLwaieZGw=&uniplatform=NZKPT&language=CHS', issn:'1000-873X' },
+  { id:'shanghai-translators', name:'Shanghai Journal of Translators',   nameCN:'上海翻译', pub:'上海大学',           rssUrl:'https://rss.cnki.net/knavi/rss/SHKF?pcode=CJFD,CCJD', siteUrl:'https://navi.cnki.net/knavi/detail?p=dYz3uf1G896HLLeE29YPfDvxbXkhPueuVrGbApHX4jKaxKaKXKE56DHapQHCflNMtVfQNky_Z3K2mu_Onkmk9tLLkLn_eWDZt20FUxBH5qGjIsjImUqlPw==&uniplatform=NZKPT&language=CHS', issn:'1672-9358' },
+];
+
+// ── Group D: Manual only ──
+const MANUAL_JOURNALS = [
+  { id:'jts', name:'Journal of Translation Studies', nameCN:'翻译学报', pub:'HK Journal Hub', siteUrl:'https://jts.ojhhk.com/EN/home', issn:'' },
+];
+
+const ALL_JOURNALS = [...CROSSREF_JOURNALS, ...RSS_JOURNALS, ...MANUAL_JOURNALS];
+const CROSSREF_API = 'https://api.crossref.org/journals/';
+const CACHE_PREFIX = 'ts_tracker_v4_';
+const CACHE_TTL = 60 * 60 * 1000;
+const AUTO_REFRESH_MS = 30 * 60 * 1000;
+const FETCH_ROWS = 25;
+
+// CORS proxies for CNKI RSS (tried in order)
+const CORS_PROXIES = [
+  { name:'allorigins',   build: url => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url) },
+  { name:'corsproxy',    build: url => 'https://corsproxy.io/?' + encodeURIComponent(url) },
+  { name:'corsanywhere', build: url => 'https://cors-anywhere.herokuapp.com/' + url },
+];
+
+/* ===================================================================
+   GLOBAL STATE
+   =================================================================== */
+let allArticles = [];
+let fetchProgress = { done: 0, total: 0, phase: '', errors: [] };
+let journalStatus = {};
+let activeSources = { crossref: true, rss: true, manual: true };
+let rssHadSuccess = false;   // true if RSS ever fetched successfully this session
+let refreshing = false;      // guard against concurrent refreshAll calls
+
+/* ===================================================================
+   DOM REFS
+   =================================================================== */
+const $ = id => document.getElementById(id);
+const mainContent         = $('mainContent');
+const searchInput         = $('searchInput');
+const journalFilter       = $('journalFilter');
+const sortBy              = $('sortBy');
+const lastUpdatedEl       = $('lastUpdated');
+const errorToast          = $('errorToast');
+const themeBtn            = $('themeBtn');
+const refreshBtn          = $('refreshBtn');
+const statTotal           = $('statTotal');
+const statLive            = $('statLive');
+const statRss             = $('statRss');
+const statManual          = $('statManual');
+const statJournals        = $('statJournals');
+const progressWrap        = $('progressWrap');
+const progressBar         = $('progressBar');
+const progressText        = $('progressText');
+const journalStatusPanel  = $('journalStatusPanel');
+
+/* ===================================================================
+   EVENT BINDINGS
+   =================================================================== */
+function bindEvents() {
+  if (refreshBtn) {
+    refreshBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      refreshAll();
+    });
+  }
+  if (themeBtn) {
+    themeBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      toggleTheme();
+    });
+  }
+}
+
+/* ===================================================================
+   THEME
+   =================================================================== */
+function initTheme() {
+  var saved = localStorage.getItem('ts_theme') || 'light';
+  document.documentElement.setAttribute('data-theme', saved);
+  if (themeBtn) themeBtn.textContent = saved === 'dark' ? '☀️' : '🌓';
+}
+function toggleTheme() {
+  var cur = document.documentElement.getAttribute('data-theme');
+  var next = cur === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('ts_theme', next);
+  if (themeBtn) themeBtn.textContent = next === 'dark' ? '☀️' : '🌓';
+}
+
+/* ===================================================================
+   POPULATE FILTER (grouped by category)
+   =================================================================== */
+function populateJournalFilter() {
+  const grp = (label) => {
+    const g = document.createElement('optgroup');
+    g.label = label;
+    return g;
+  };
+
+  const g1 = grp('🟢 CrossRef · Taylor & Francis');
+  CROSSREF_TF.forEach(j => { const o = document.createElement('option'); o.value = j.id; o.textContent = j.name; g1.appendChild(o); });
+  journalFilter.appendChild(g1);
+
+  const g2 = grp('🟢 CrossRef · John Benjamins');
+  CROSSREF_JB.forEach(j => { const o = document.createElement('option'); o.value = j.id; o.textContent = j.name; g2.appendChild(o); });
+  journalFilter.appendChild(g2);
+
+  const g3 = grp('🔵 CNKI RSS · 中文核心期刊');
+  RSS_JOURNALS.forEach(j => { const o = document.createElement('option'); o.value = j.id; o.textContent = j.nameCN + '  ' + j.name; g3.appendChild(o); });
+  journalFilter.appendChild(g3);
+
+  const g4 = grp('🟠 手动访问');
+  MANUAL_JOURNALS.forEach(j => { const o = document.createElement('option'); o.value = j.id; o.textContent = j.nameCN + '  ' + j.name; g4.appendChild(o); });
+  journalFilter.appendChild(g4);
+}
+
+/* ===================================================================
+   SOURCE TOGGLE
+   =================================================================== */
+function toggleSource(src, el) {
+  activeSources[src] = !activeSources[src];
+  el.classList.toggle('active', activeSources[src]);
+  render();
+}
+
+/* ===================================================================
+   JOURNAL STATUS PANEL
+   =================================================================== */
+function updateJournalStatus() {
+  if (!journalStatusPanel) return;
+  var html = '';
+  var allCR = CROSSREF_TF.concat(CROSSREF_JB);
+  // CrossRef group
+  allCR.forEach(function(j) {
+    var st = journalStatus[j.id] || 'pending';
+    var iconMap = { ok:'✅', error:'⚠️', loading:'⏳', stale:'📦' };
+    var clsMap = { ok:'ok', error:'error', loading:'loading', stale:'stale' };
+    var titleMap = { ok:'已更新', error:'获取失败', loading:'获取中…', stale:'使用缓存' };
+    var icon = iconMap[st] || '⏸️';
+    var cls = clsMap[st] || '';
+    html += '<span class="journal-status-tag ' + cls + '" title="' + j.name + ' · ' + j.pub + ': ' + (titleMap[st] || '等待中') + '">' + icon + ' ' + j.name + '</span>';
+  });
+  // RSS group
+  RSS_JOURNALS.forEach(function(j) {
+    var st = journalStatus[j.id] || 'pending';
+    var iconMap = { ok:'✅', error:'⚠️', loading:'⏳', stale:'📦' };
+    var clsMap = { ok:'ok', error:'error', loading:'loading', stale:'stale' };
+    var titleMap = { ok:'已更新', error:'获取失败', loading:'获取中…', stale:'使用缓存' };
+    var icon = iconMap[st] || '⏸️';
+    var cls = clsMap[st] || '';
+    html += '<span class="journal-status-tag ' + cls + '" title="' + j.nameCN + ': ' + (titleMap[st] || '等待中') + '">' + icon + ' ' + j.nameCN + '</span>';
+  });
+  journalStatusPanel.innerHTML = html;
+}
+
+/* ===================================================================
+   CACHE
+   =================================================================== */
+function getCache(key) {
+  try {
+    var raw = localStorage.getItem(CACHE_PREFIX + key);
+    if (!raw) return null;
+    var d = JSON.parse(raw);
+    if (Date.now() - d.ts > CACHE_TTL) return null;
+    return reviveCacheDates(d.data);
+  } catch (e) { return null; }
+}
+function setCache(key, data) {
+  try { localStorage.setItem(CACHE_PREFIX + key, JSON.stringify({ data: data, ts: Date.now() })); } catch {}
+}
+
+// Revive Date objects from JSON-serialized cache (Date → string in JSON)
+function reviveCacheDates(articles) {
+  if (!articles) return articles;
+  for (var k = 0; k < articles.length; k++) {
+    var a = articles[k];
+    if (a.pubDate && typeof a.pubDate === 'string') {
+      a.pubDate = new Date(a.pubDate);
+    }
+    if (!a.pubDateStr && a.pubDate && a.pubDate instanceof Date) {
+      a.pubDateStr = a.pubDate.toISOString().substring(0, 10);
+    }
+  }
+  return articles;
+}
+
+/* ===================================================================
+   FETCH SINGLE JOURNAL FROM CROSSREF
+   =================================================================== */
+async function fetchCrossRefJournal(journal) {
+  const url = `${CROSSREF_API}${encodeURIComponent(journal.issn)}/works?filter=type:journal-article&sort=published&order=desc&rows=${FETCH_ROWS}&mailto=ts-tracker@example.com`;
+
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 15000);
+
+  try {
+    const resp = await fetch(url, { signal: controller.signal });
+    clearTimeout(timeout);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const body = await resp.json();
+    if (body.status !== 'ok') throw new Error('CrossRef API status not ok');
+
+    const items = (body.message && body.message.items) ? body.message.items : [];
+
+    const articles = items.map(item => {
+      const title = (item.title && item.title[0]) ? cleanText(item.title[0]) : 'Untitled';
+      const authors = (item.author && item.author.length > 0)
+        ? item.author.map(a => `${a.family || ''} ${a.given || ''}`.trim()).filter(Boolean).join(', ')
+        : '';
+
+      let pubDate = null;
+      const dateSrc = item['published-online'] || item['published-print'] || item.issued || item.created;
+      if (dateSrc && dateSrc['date-parts'] && dateSrc['date-parts'][0]) {
+        const dp = dateSrc['date-parts'][0];
+        pubDate = new Date(Date.UTC(dp[0], (dp[1] || 1) - 1, dp[2] || 1));
+      }
+
+      const keywords = (item.subject || []).map(s => cleanText(s)).filter(Boolean);
+      const doi = item.DOI || '';
+      const articleUrl = doi ? `https://doi.org/${doi}` : (item.URL || '');
+      const abstract = item.abstract ? cleanText(item.abstract).substring(0, 500) : '';
+
+      const volume = item.volume || '';
+      const issue = item.issue || '';
+      const pages = item.page || '';
+      let volumeStr = '';
+      if (volume) volumeStr += `Vol. ${volume}`;
+      if (issue) volumeStr += volumeStr ? `(${issue})` : `Issue ${issue}`;
+      if (pages) volumeStr += volumeStr ? `, pp. ${pages}` : `pp. ${pages}`;
+
+      return {
+        id: doi || `${journal.id}-${title}-${pubDate ? pubDate.toISOString() : ''}`,
+        title,
+        journal: item['container-title'] ? item['container-title'][0] : journal.name,
+        journalId: journal.id,
+        publisher: journal.pub,
+        publisherGroup: CROSSREF_TF.some(j => j.id === journal.id) ? 'tf' : 'jb',
+        siteUrl: journal.siteUrl,
+        pubDate: pubDate || new Date(0),
+        pubDateStr: pubDate ? pubDate.toISOString().substring(0, 10) : '',
+        authors: authors || 'Author info unavailable',
+        doi,
+        articleUrl,
+        keywords,
+        abstract,
+        volumeStr,
+        source: 'crossref',
+      };
+    });
+
+    setCache('cr_' + journal.id, articles);
+    journalStatus[journal.id] = 'ok';
+    return articles;
+
+  } catch (err) {
+    clearTimeout(timeout);
+    console.warn(`CrossRef fetch failed for ${journal.name}:`, err.message);
+    journalStatus[journal.id] = 'error';
+    try {
+      const raw = localStorage.getItem(CACHE_PREFIX + 'cr_' + journal.id);
+      if (raw) { const d = JSON.parse(raw); if (d.data && d.data.length > 0) { journalStatus[journal.id] = 'stale'; return reviveCacheDates(d.data); } }
+    } catch {}
+    return [];
+  }
+}
+
+/* ===================================================================
+   FETCH ALL CROSSREF JOURNALS
+   =================================================================== */
+async function fetchAllCrossRef() {
+  var total = CROSSREF_JOURNALS.length;
+  var done = 0;
+  fetchProgress = { done: 0, total: total, phase: 'CrossRef', errors: [] };
+  if (progressWrap) progressWrap.classList.add('active');
+  updateProgress();
+
+  var results = [];
+
+  for (var i = 0; i < CROSSREF_JOURNALS.length; i++) {
+    var journal = CROSSREF_JOURNALS[i];
+    journalStatus[journal.id] = 'loading';
+    updateJournalStatus();
+
+    var articles = await fetchCrossRefJournal(journal);
+    if (articles.length > 0) {
+      results.push.apply(results, articles);
+    } else {
+      fetchProgress.errors.push(journal.name);
+    }
+
+    done++;
+    fetchProgress.done = done;
+    updateProgress();
+    updateJournalStatus();
+    await sleep(250);
+  }
+
+  if (progressWrap) progressWrap.classList.remove('active');
+
+  // Replace only CrossRef articles, keep RSS + manual
+  var nonCrossRef = allArticles.filter(function(a) { return a.source !== 'crossref'; });
+  allArticles = results.concat(nonCrossRef);
+
+  if (fetchProgress.errors.length > 0) {
+    showToast('⚠️ CrossRef 部分期刊获取失败：' + fetchProgress.errors.join('、') + '，已使用缓存数据');
+  }
+
+  return results;
+}
+
+/* ===================================================================
+   FETCH CNKI RSS
+   =================================================================== */
+async function fetchRSSJournal(journal) {
+  const cached = getCache('rss_' + journal.id);
+  if (cached && cached.length > 0) {
+    journalStatus[journal.id] = 'ok';
+    rssHadSuccess = true;
+    return cached;
+  }
+
+  let xmlText = null;
+
+  for (const proxy of CORS_PROXIES) {
+    try {
+      const proxyUrl = proxy.build(journal.rssUrl);
+      const controller = new AbortController();
+      const t = setTimeout(() => controller.abort(), 12000);
+      const resp = await fetch(proxyUrl, { signal: controller.signal });
+      clearTimeout(t);
+      if (resp.ok) {
+        xmlText = await resp.text();
+        if (xmlText && (xmlText.includes('<rss') || xmlText.includes('<feed'))) break;
+      }
+    } catch (e) {
+      console.warn(`RSS proxy ${proxy.name} failed for ${journal.nameCN}:`, e.message);
+      continue;
+    }
+  }
+
+  if (!xmlText) throw new Error('All RSS proxies failed');
+
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(xmlText, 'application/xml');
+  if (doc.querySelector('parsererror')) throw new Error('RSS XML parse error');
+
+  const items = doc.querySelectorAll('item');
+  if (items.length === 0) throw new Error('RSS feed returned no items');
+
+  const articles = [];
+  items.forEach((item, idx) => {
+    const title = cleanText(item.querySelector('title')?.textContent || 'Untitled');
+    const link = item.querySelector('link')?.textContent || '';
+    const description = cleanText((item.querySelector('description')?.textContent || '').substring(0, 500));
+    const authorRaw = item.querySelector('author')?.textContent || '';
+    const pubDateRaw = item.querySelector('pubDate')?.textContent || '';
+
+    let pubDate = null;
+    if (pubDateRaw) { const d = new Date(pubDateRaw); if (!isNaN(d.getTime())) pubDate = d; }
+
+    const keywords = [];
+    const kwMatch = description.match(/关键词[：:]\s*(.+?)(?:[；;]|$|\n)/);
+    if (kwMatch) {
+      kwMatch[1].split(/[;；,，、]/).forEach(k => { const tk = k.trim(); if (tk && tk.length < 30) keywords.push(tk); });
+    }
+
+    let cleanDesc = description
+      .replace(/关键词[：:].+?([；;]|$|\n)/g, '')
+      .replace(/摘要[：:]/g, '')
+      .replace(/作者[：:].+?([；;]|$|\n)/g, '')
+      .trim();
+
+    articles.push({
+      id: `${journal.id}-rss-${idx}`,
+      title,
+      journal: journal.name,
+      journalCN: journal.nameCN,
+      journalId: journal.id,
+      publisher: journal.pub,
+      siteUrl: journal.siteUrl,
+      pubDate: pubDate || new Date(Date.now() - idx * 86400000),
+      pubDateStr: pubDate ? pubDate.toISOString().substring(0, 10) : '',
+      authors: authorRaw || '',
+      doi: '',
+      articleUrl: link || journal.siteUrl,
+      keywords,
+      abstract: cleanDesc,
+      volumeStr: '',
+      source: 'rss',
+    });
+  });
+
+  if (articles.length > 0) {
+    setCache('rss_' + journal.id, articles);
+    journalStatus[journal.id] = 'ok';
+    rssHadSuccess = true;
+  }
+
+  return articles;
+}
+
+/* ===================================================================
+   FETCH ALL RSS JOURNALS
+   =================================================================== */
+async function fetchAllRSS() {
+  var total = RSS_JOURNALS.length;
+  var done = 0;
+  var phaseProgress = { done: 0, total: total, phase: 'CNKI RSS', errors: [] };
+  if (progressWrap) progressWrap.classList.add('active');
+
+  var results = [];
+  var anyOk = false;
+
+  for (var i = 0; i < RSS_JOURNALS.length; i++) {
+    var journal = RSS_JOURNALS[i];
+    journalStatus[journal.id] = 'loading';
+    updateJournalStatus();
+
+    phaseProgress.done = done;
+    phaseProgress.total = total;
+    fetchProgress = phaseProgress;
+    updateProgress();
+
+    try {
+      var articles = await fetchRSSJournal(journal);
+      if (articles.length > 0) { results.push.apply(results, articles); anyOk = true; }
+    } catch (err) {
+      console.warn('RSS fetch failed for ' + journal.nameCN + ':', err.message);
+      phaseProgress.errors.push(journal.nameCN);
+      journalStatus[journal.id] = 'error';
+      // Try expired cache
+      try {
+        var raw = localStorage.getItem(CACHE_PREFIX + 'rss_' + journal.id);
+        if (raw) { var d = JSON.parse(raw); if (d.data && d.data.length > 0) { results.push.apply(results, reviveCacheDates(d.data)); journalStatus[journal.id] = 'stale'; anyOk = true; } }
+      } catch (e2) {}
+    }
+
+    done++;
+    updateJournalStatus();
+    await sleep(300);
+  }
+
+  if (progressWrap) progressWrap.classList.remove('active');
+
+  // Replace only RSS articles
+  var nonRSS = allArticles.filter(function(a) { return a.source !== 'rss'; });
+  allArticles = nonRSS.concat(results);
+
+  if (!anyOk) {
+    rssHadSuccess = false;
+    showToast('⚠️ CNKI RSS 全部获取失败（CORS 代理可能被拦截），请通过下方卡片直接访问期刊官网');
+  } else if (phaseProgress.errors.length > 0) {
+    showToast('⚠️ CNKI RSS 部分失败：' + phaseProgress.errors.join('、') + '，请通过下方卡片访问期刊官网');
+  }
+
+  return results;
+}
+
+/* ===================================================================
+   PROGRESS
+   =================================================================== */
+function updateProgress() {
+  if (!progressBar || !progressText) return;
+  var pct = fetchProgress.total > 0 ? Math.round((fetchProgress.done / fetchProgress.total) * 100) : 0;
+  progressBar.style.width = pct + '%';
+  progressText.textContent = '正在获取 ' + fetchProgress.phase + ' 最新文献… ' + fetchProgress.done + '/' + fetchProgress.total;
+}
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+/* ===================================================================
+   HELPERS
+   =================================================================== */
+function cleanText(s) {
+  if (!s) return '';
+  return s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&#39;/g, "'").replace(/&quot;/g, '"')
+    .replace(/<\/?[^>]+(>|$)/g, '').replace(/\s+/g, ' ').trim();
+}
+
+function formatDate(date) {
+  if (!date) return '';
+  // Handle non-Date values (e.g. ISO strings from cache deserialization)
+  if (typeof date !== 'object' || !(date instanceof Date)) {
+    date = new Date(date);
+  }
+  if (isNaN(date.getTime()) || date.getTime() === 0) return '';
+  var now = new Date();
+  var diff = now - date;
+  var days = Math.floor(diff / 86400000);
+  if (days === 0) return 'Today';
+  if (days === 1) return 'Yesterday';
+  if (days < 7) return days + ' days ago';
+  if (days < 30) return Math.floor(days / 7) + ' weeks ago';
+  if (days < 365) return Math.floor(days / 30) + ' months ago';
+  return date.toLocaleDateString('en-CA');
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+/* ===================================================================
+   TOAST
+   =================================================================== */
+let toastTimer = null;
+function showToast(msg) {
+  errorToast.textContent = msg;
+  errorToast.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => errorToast.classList.remove('show'), 8000);
+}
+
+/* ===================================================================
+   RENDER
+   =================================================================== */
+function render() {
+  if (!mainContent) { console.error('[Tracker] mainContent not found'); return; }
+  const searchTerm = (searchInput && searchInput.value) ? searchInput.value.toLowerCase().trim() : '';
+  const journalVal = journalFilter.value;
+  const sortVal = sortBy.value;
+
+  let filtered = [...allArticles];
+
+  // Source filter
+  filtered = filtered.filter(a => {
+    if (a.source === 'crossref' && !activeSources.crossref) return false;
+    if (a.source === 'rss'      && !activeSources.rss) return false;
+    return true;
+  });
+
+  // Journal filter
+  if (journalVal !== 'all') {
+    filtered = filtered.filter(a => a.journalId === journalVal);
+  }
+
+  // Search
+  if (searchTerm) {
+    filtered = filtered.filter(a =>
+      (a.title && a.title.toLowerCase().includes(searchTerm)) ||
+      (a.authors && a.authors.toLowerCase().includes(searchTerm)) ||
+      (a.journal && a.journal.toLowerCase().includes(searchTerm)) ||
+      (a.journalCN && a.journalCN.includes(searchTerm)) ||
+      (a.keywords || []).some(k => k.toLowerCase().includes(searchTerm)) ||
+      (a.abstract && a.abstract.toLowerCase().includes(searchTerm)) ||
+      (a.volumeStr && a.volumeStr.toLowerCase().includes(searchTerm))
+    );
+  }
+
+  // Helper: safely get timestamp from pubDate (handles Date, string, number)
+  function ts(d) {
+    if (!d) return 0;
+    if (d instanceof Date) return d.getTime();
+    if (typeof d === 'number') return d;
+    var t = new Date(d).getTime();
+    return isNaN(t) ? 0 : t;
+  }
+
+  // Sort
+  switch (sortVal) {
+    case 'date-desc':
+      filtered.sort(function(a, b) { return ts(b.pubDate) - ts(a.pubDate); });
+      break;
+    case 'date-asc':
+      filtered.sort(function(a, b) { return ts(a.pubDate) - ts(b.pubDate); });
+      break;
+    case 'title':
+      filtered.sort(function(a, b) { return (a.title || '').localeCompare(b.title || ''); });
+      break;
+    case 'journal':
+      filtered.sort(function(a, b) {
+        var j = (a.journal || '').localeCompare(b.journal || '');
+        if (j !== 0) return j;
+        return ts(b.pubDate) - ts(a.pubDate);
+      });
+      break;
+  }
+
+  if (statTotal) statTotal.textContent = filtered.length;
+  var crCount = allArticles.filter(function(a){ return a.source === 'crossref'; }).length;
+  var rsCount = allArticles.filter(function(a){ return a.source === 'rss'; }).length;
+  if (statLive) statLive.textContent = crCount > 0 ? crCount : '—';
+  if (statRss) statRss.textContent = rsCount > 0 ? rsCount : (rssHadSuccess ? '0' : '—');
+  if (statJournals) statJournals.textContent = ALL_JOURNALS.length;
+
+  let html = '';
+
+  const isFetching = fetchProgress.done < fetchProgress.total && fetchProgress.total > 0;
+  const isFetchingCR = isFetching && fetchProgress.phase === 'CrossRef';
+  const isFetchingRSS = isFetching && fetchProgress.phase === 'CNKI RSS';
+
+  // ===================================================================
+  // CrossRef section — split by publisher (Taylor & Francis / John Benjamins)
+  // ===================================================================
+  if (activeSources.crossref) {
+    const showCR = journalVal === 'all' || CROSSREF_JOURNALS.some(j => j.id === journalVal);
+
+    if (showCR) {
+      html += `<div class="section-header">
+        <h2>🟢 CrossRef 实时追踪</h2>
+        <span class="badge live">${filtered.filter(a => a.source === 'crossref').length} articles</span>
+        <span style="font-size:0.72rem;color:var(--text-muted);">· SSCI / A&HCI 国际期刊 · CrossRef API 实时数据</span>
+      </div>`;
+
+      if (isFetchingCR) {
+        html += `<div class="articles-grid"><div class="loading-block"><div class="spinner"></div><p>正在从 CrossRef 获取最新文献… ${fetchProgress.done}/${fetchProgress.total}</p></div></div>`;
+      } else if (crCount === 0 && !isFetching) {
+        html += `<div class="articles-grid"><div class="empty-block"><span class="empty-icon">📭</span><p>CrossRef 数据暂未加载</p><p style="font-size:0.85rem;margin-top:4px;color:var(--text-muted);">请点击右上角「🔄 刷新全部」获取最新文献</p></div></div>`;
+      } else {
+
+        // ── Taylor & Francis ──
+        const tfArticles = filtered.filter(a => a.source === 'crossref' && a.publisherGroup === 'tf');
+        const showTF = journalVal === 'all' || CROSSREF_TF.some(j => j.id === journalVal);
+        if (showTF) {
+          html += `<div class="subsection-header">
+            <span class="publisher-dot tf"></span> Taylor & Francis
+            <span class="badge tf">${CROSSREF_TF.length} journals</span>
+            <span style="font-size:0.72rem;color:var(--text-muted);font-weight:400;">· tandfonline.com</span>
+          </div>`;
+          if (tfArticles.length === 0) {
+            html += `<div class="articles-grid"><div class="empty-block"><span class="empty-icon">📭</span><p>该分类暂无匹配文献</p></div></div>`;
+          } else {
+            html += `<div class="articles-grid">${tfArticles.map(a => articleCard(a)).join('')}</div>`;
+          }
+        }
+
+        // ── John Benjamins ──
+        const jbArticles = filtered.filter(a => a.source === 'crossref' && a.publisherGroup === 'jb');
+        const showJB = journalVal === 'all' || CROSSREF_JB.some(j => j.id === journalVal);
+        if (showJB) {
+          html += `<div class="subsection-header">
+            <span class="publisher-dot jb"></span> John Benjamins
+            <span class="badge jb">${CROSSREF_JB.length} journals</span>
+            <span style="font-size:0.72rem;color:var(--text-muted);font-weight:400;">· benjamins.com</span>
+          </div>`;
+          if (jbArticles.length === 0) {
+            html += `<div class="articles-grid"><div class="empty-block"><span class="empty-icon">📭</span><p>该分类暂无匹配文献</p></div></div>`;
+          } else {
+            html += `<div class="articles-grid">${jbArticles.map(a => articleCard(a)).join('')}</div>`;
+          }
+        }
+      }
+    }
+  }
+
+  // ===================================================================
+  // CNKI RSS section — if failed, show all as manual access cards
+  // ===================================================================
+  if (activeSources.rss) {
+    const showRSS = journalVal === 'all' || RSS_JOURNALS.some(j => j.id === journalVal);
+
+    if (showRSS) {
+      const rssArticles = filtered.filter(a => a.source === 'rss');
+      const rssFailed = !rssHadSuccess && !isFetchingRSS && rsCount === 0;
+
+      html += `<div class="section-header">
+        <h2>🔵 CNKI RSS 追踪 · 中文核心期刊</h2>
+        <span class="badge rss">${rssArticles.length} articles</span>
+        <span style="font-size:0.72rem;color:var(--text-muted);">· 通过知网 RSS 抓取，CORS 代理获取</span>
+      </div>`;
+
+      if (isFetchingRSS) {
+        html += `<div class="articles-grid"><div class="loading-block"><div class="spinner"></div><p>正在抓取知网 RSS… ${fetchProgress.done}/${fetchProgress.total}</p></div></div>`;
+      } else if (rssFailed) {
+        // RSS totally failed → show all as manual access cards
+        html += `<div class="articles-grid"><div class="empty-block">
+          <span class="empty-icon">📡</span>
+          <p>CNKI RSS 获取失败</p>
+          <p style="font-size:0.85rem;margin-top:4px;color:var(--text-muted);">知网 RSS 需通过 CORS 代理获取，当前所有代理均被拦截</p>
+          <p style="font-size:0.8rem;margin-top:2px;color:var(--text-muted);">请通过下方卡片直接访问各期刊官网，或复制 RSS 链接到阅读器订阅</p>
+        </div></div>`;
+        html += `<div class="manual-grid">${RSS_JOURNALS.map(j => manualTile(j)).join('')}</div>`;
+      } else if (rssArticles.length === 0 && rsCount === 0) {
+        // No articles yet but RSS might be working
+        html += `<div class="articles-grid"><div class="empty-block"><span class="empty-icon">📭</span><p>CNKI RSS 数据暂未加载，请点击「🔄 刷新全部」</p></div></div>`;
+      } else if (rssArticles.length === 0) {
+        html += `<div class="articles-grid"><div class="empty-block"><span class="empty-icon">🔍</span><p>没有匹配的 CNKI RSS 文献</p></div></div>`;
+      } else {
+        html += `<div class="articles-grid">${rssArticles.map(a => articleCard(a)).join('')}</div>`;
+      }
+    }
+  }
+
+  // ===================================================================
+  // Manual section — journals without CrossRef/RSS
+  // ===================================================================
+  if (activeSources.manual) {
+    const showManualAll = journalVal === 'all';
+    const manualSelected = MANUAL_JOURNALS.some(j => j.id === journalVal);
+
+    if (showManualAll) {
+      html += `<div class="section-header">
+        <h2>🟠 手动访问期刊</h2>
+        <span class="badge manual">${MANUAL_JOURNALS.length} journal</span>
+        <span style="font-size:0.72rem;color:var(--text-muted);">· 暂不支持 CrossRef 与 RSS，请点击跳转官网</span>
+      </div>`;
+      html += `<div class="manual-grid">${MANUAL_JOURNALS.map(j => manualTile(j)).join('')}</div>`;
+    } else if (manualSelected) {
+      const mj = MANUAL_JOURNALS.find(j => j.id === journalVal);
+      if (mj) {
+        html += `<div class="section-header">
+          <h2>🟠 手动访问</h2>
+          <span class="badge manual">需跳转官网</span>
+        </div>`;
+        html += `<div class="manual-grid">${manualTile(mj)}</div>`;
+        html += `<div style="text-align:center;padding:24px;color:var(--text-muted);">
+          <p style="font-size:1.05rem;">⚠️ ${escapeHtml(mj.nameCN)}（${escapeHtml(mj.name)}）暂未被 CrossRef 收录</p>
+          <p style="font-size:0.85rem;margin-top:6px;">请点击上方卡片跳转至 ${escapeHtml(mj.pub)} 官网查看最新文献</p>
+        </div>`;
+      }
+    }
+  }
+
+  // No results at all
+  if (filtered.length === 0 && !isFetching && searchTerm) {
+    html = `<div class="empty-block"><span class="empty-icon">🔍</span><p>未找到匹配 "${escapeHtml(searchTerm)}" 的文献</p><p style="font-size:0.85rem;margin-top:4px;color:var(--text-muted);">请尝试更换搜索关键词或调整筛选条件</p></div>`;
+  }
+
+  mainContent.innerHTML = html;
+}
+
+/* ===================================================================
+   ARTICLE CARD
+   =================================================================== */
+function articleCard(a) {
+  const kw = (a.keywords || []).slice(0, 8);
+  const kwHtml = kw.length > 0
+    ? `<div class="card-keywords">${kw.map(k => `<span class="keyword-tag" title="${escapeHtml(k)}">${escapeHtml(k.length > 30 ? k.substring(0, 28) + '…' : k)}</span>`).join('')}</div>`
+    : '';
+
+  // Data source tag
+  const sourceTag = a.source === 'crossref'
+    ? '<span class="card-source-tag crossref-src">CrossRef</span>'
+    : '<span class="card-source-tag rss-src">CNKI RSS</span>';
+
+  // Publisher tag (only for CrossRef)
+  let pubTag = '';
+  if (a.source === 'crossref' && a.publisherGroup) {
+    const label = a.publisherGroup === 'tf' ? 'T&F' : 'JB';
+    const cls = a.publisherGroup === 'tf' ? 'tf' : 'jb';
+    pubTag = `<span class="publisher-tag ${cls}">${label}</span>`;
+  }
+
+  const abstractHtml = a.abstract
+    ? `<div class="card-abstract">${escapeHtml(a.abstract)}</div>`
+    : '';
+
+  const journalLabel = a.source === 'crossref'
+    ? a.journal
+    : `${a.journalCN || ''} · ${a.journal}`;
+
+  return `
+    <article class="article-card">
+      <div class="card-journal">
+        ${pubTag}
+        ${escapeHtml(journalLabel)}
+        ${sourceTag}
+      </div>
+      <h3 class="card-title">
+        <a href="${escapeHtml(a.articleUrl)}" target="_blank" rel="noopener" title="查看原文">
+          ${escapeHtml(a.title)}
+        </a>
+      </h3>
+      <div class="card-meta">
+        ${a.pubDateStr ? `<span>📅 ${formatDate(a.pubDate)}</span>` : ''}
+        ${a.volumeStr ? `<span>📖 ${escapeHtml(a.volumeStr)}</span>` : ''}
+        ${a.doi ? `<span>🔗 DOI: ${escapeHtml(a.doi.substring(0, 30))}…</span>` : ''}
+        ${a.publisher ? `<span>🏛️ ${escapeHtml(a.publisher)}</span>` : ''}
+      </div>
+      ${a.authors ? `<div class="card-authors">✍️ ${escapeHtml(a.authors)}</div>` : ''}
+      ${abstractHtml}
+      ${kwHtml}
+      <a class="card-link" href="${escapeHtml(a.articleUrl)}" target="_blank" rel="noopener">
+        ${a.source === 'rss' ? '在知网查看 →' : 'Read on publisher site →'}
+      </a>
+    </article>
+  `;
+}
+
+/* ===================================================================
+   MANUAL TILE (for journals without CrossRef/RSS, or RSS-fallback)
+   =================================================================== */
+function manualTile(j) {
+  return `
+    <div class="manual-tile">
+      <div class="manual-icon">🏛️</div>
+      <div class="manual-name">${escapeHtml(j.name)}</div>
+      ${j.nameCN ? `<div class="manual-name-cn">${escapeHtml(j.nameCN)}</div>` : ''}
+      <div class="manual-pub">${escapeHtml(j.pub)}${j.issn ? ' · ISSN ' + escapeHtml(j.issn) : ''}</div>
+      <a class="manual-link" href="${escapeHtml(j.siteUrl)}" target="_blank" rel="noopener">
+        🌐 访问官网 →
+      </a>
+      ${j.rssUrl ? `
+      <a class="manual-link" href="${escapeHtml(j.rssUrl)}" target="_blank" rel="noopener" style="background:var(--manual-badge);margin-top:2px;">
+        📡 RSS 订阅 →
+      </a>` : ''}
+    </div>
+  `;
+}
+
+/* ===================================================================
+   REFRESH ALL
+   =================================================================== */
+async function refreshAll() {
+  // Guard against concurrent refreshes
+  if (refreshing) {
+    console.log('[Tracker] Refresh already in progress, skipping…');
+    return;
+  }
+  refreshing = true;
+
+  try {
+    if (!refreshBtn) { console.error('[Tracker] refreshBtn not found'); return; }
+    refreshBtn.disabled = true;
+    refreshBtn.innerHTML = '⏳ 加载中…';
+    if (searchInput) searchInput.value = '';
+    if (journalFilter) journalFilter.value = 'all';
+    if (sortBy) sortBy.value = 'date-desc';
+
+    // Reset status
+    [...CROSSREF_JOURNALS, ...RSS_JOURNALS].forEach(function(j) { journalStatus[j.id] = 'pending'; });
+    updateJournalStatus();
+    render();
+
+    // CrossRef
+    try {
+      await fetchAllCrossRef();
+      updateLastUpdated();
+      render();
+    } catch (err) {
+      console.error('[Tracker] CrossRef refresh error:', err);
+      showToast('CrossRef 数据刷新失败：' + (err.message || '未知错误'));
+    }
+
+    // RSS
+    try {
+      await fetchAllRSS();
+      updateLastUpdated();
+      render();
+    } catch (err) {
+      console.error('[Tracker] RSS refresh error:', err);
+      showToast('RSS 数据刷新失败：' + (err.message || '未知错误'));
+    }
+  } catch (err) {
+    console.error('[Tracker] refreshAll fatal error:', err);
+    showToast('刷新过程发生错误：' + (err.message || '未知错误'));
+  } finally {
+    refreshing = false;
+    if (refreshBtn) {
+      refreshBtn.disabled = false;
+      refreshBtn.innerHTML = '🔄 刷新全部';
+    }
+  }
+}
+
+function updateLastUpdated() {
+  var now = new Date().toISOString();
+  localStorage.setItem(CACHE_PREFIX + 'last_updated', now);
+  if (lastUpdatedEl) lastUpdatedEl.textContent = '最后更新：' + new Date(now).toLocaleString('zh-CN');
+}
+
+/* ===================================================================
+   INIT
+   =================================================================== */
+async function init() {
+  try {
+    console.log('[Tracker] Initializing…');
+    initTheme();
+    populateJournalFilter();
+    bindEvents();
+
+    [...CROSSREF_JOURNALS, ...RSS_JOURNALS].forEach(function(j) { journalStatus[j.id] = 'pending'; });
+    updateJournalStatus();
+
+    var lu = localStorage.getItem(CACHE_PREFIX + 'last_updated');
+    if (lu && lastUpdatedEl) lastUpdatedEl.textContent = '最后更新：' + new Date(lu).toLocaleString('zh-CN');
+
+    render();
+    console.log('[Tracker] Initial render done, articles in state:', allArticles.length);
+
+    // Load caches for instant display (getCache auto-revives Date objects)
+    var hasCache = false;
+    for (var i = 0; i < CROSSREF_JOURNALS.length; i++) {
+      var j = CROSSREF_JOURNALS[i];
+      var cached = getCache('cr_' + j.id);
+      if (cached && cached.length > 0) {
+        allArticles.push.apply(allArticles, cached);
+        journalStatus[j.id] = 'stale';
+        hasCache = true;
+      }
+    }
+    for (var i2 = 0; i2 < RSS_JOURNALS.length; i2++) {
+      var j2 = RSS_JOURNALS[i2];
+      var cached2 = getCache('rss_' + j2.id);
+      if (cached2 && cached2.length > 0) {
+        allArticles.push.apply(allArticles, cached2);
+        journalStatus[j2.id] = 'stale';
+        rssHadSuccess = true;
+        hasCache = true;
+      }
+    }
+    if (hasCache) { updateJournalStatus(); render(); }
+
+    // Fetch fresh CrossRef
+    console.log('[Tracker] Fetching CrossRef…');
+    await fetchAllCrossRef();
+    updateLastUpdated();
+    render();
+    console.log('[Tracker] CrossRef fetch complete, articles:', allArticles.length);
+
+    // Fetch fresh RSS
+    console.log('[Tracker] Fetching RSS…');
+    await fetchAllRSS();
+    updateLastUpdated();
+  render();
+  updateJournalStatus();
+
+    console.log('[Tracker] RSS fetch complete, articles:', allArticles.length);
+    console.log('[Tracker] Init complete ✓');
+
+    // Auto-refresh
+    setInterval(function() {
+      console.log('[Tracker] Auto-refreshing…');
+      if (refreshing) { console.log('[Tracker] Skipping auto-refresh, already in progress'); return; }
+      refreshAll();
+    }, AUTO_REFRESH_MS);
+  } catch (e) {
+    console.error('[Tracker] Init error:', e);
+    showToast('初始化失败：' + (e.message || '未知错误') + ' — 请刷新页面重试');
+  }
+}
+
+// Start when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', function() { init(); });
+} else {
+  init();
+}
+</script>
+</body>
+</html>

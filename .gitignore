@@ -1,0 +1,10 @@
+# Windows 快捷方式
+*.url
+
+# Claude
+.claude/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
