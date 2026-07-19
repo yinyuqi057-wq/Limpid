@@ -1,0 +1,11 @@
+{
+  "name": "translation-journals-tracker",
+  "private": true,
+  "description": "Automated data fetcher for Translation Studies Journals Tracker",
+  "dependencies": {
+    "fast-xml-parser": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
