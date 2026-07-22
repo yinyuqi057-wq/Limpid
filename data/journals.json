@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T01:00:05.854+08:00",
-  "generated_ts": 1784653205854,
+  "generated_at": "2026-07-22T17:18:39.024+08:00",
+  "generated_ts": 1784711919024,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,24 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2676959",
+      "title": "The MT compass: an analysis of internal guidelines on non-professional MT use in Swiss institutions and financial entities and their implications for legal translation",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-07-21T00:00:00.000Z",
+      "pubDateStr": "2026-07-21",
+      "authors": "Canavese Paolo, Girletti Sabrina",
+      "doi": "10.1080/0907676x.2026.2676959",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2676959",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-21",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2688447",
       "title": "Terminological consistency in legal EU documents translated into Catalan using machine translation",
@@ -488,24 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2649598",
-      "title": "Transcending narratives of interpreting: interframing the 2020 U.S. presidential debate",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-04-27T00:00:00.000Z",
-      "pubDateStr": "2026-04-27",
-      "authors": "Arzik-Erzurumlu Ozum, Demir Perihan",
-      "doi": "10.1080/0907676x.2026.2649598",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2649598",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-20",
       "source": "crossref"
     },
     {
@@ -2831,24 +2831,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1075/target.26134.xu",
-      "title": "Review of Robinson (2025): A Zombie Theory of Translation: Or, What is a “Revenant” Translation?",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2026-05-19T00:00:00.000Z",
-      "pubDateStr": "2026-05-19",
-      "authors": "Xu Yang",
-      "doi": "10.1075/target.26134.xu",
-      "articleUrl": "https://doi.org/10.1075/target.26134.xu",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "",
-      "source": "crossref"
-    },
-    {
       "id": "10.1075/target.25274.lud",
       "title": "Review of Asscher (2026): Machine Translation and Translation Theory",
       "journal": "Target. International Journal of Translation Studies",
@@ -2861,6 +2843,24 @@
       "authors": "Ludewig Alexandra",
       "doi": "10.1075/target.25274.lud",
       "articleUrl": "https://doi.org/10.1075/target.25274.lud",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1075/target.26134.xu",
+      "title": "Review of Robinson (2025): A Zombie Theory of Translation: Or, What is a “Revenant” Translation?",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-05-19T00:00:00.000Z",
+      "pubDateStr": "2026-05-19",
+      "authors": "Xu Yang",
+      "doi": "10.1075/target.26134.xu",
+      "articleUrl": "https://doi.org/10.1075/target.26134.xu",
       "keywords": [],
       "abstract": "",
       "volumeStr": "",
