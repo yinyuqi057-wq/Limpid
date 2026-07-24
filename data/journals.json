@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T17:12:01.270+08:00",
-  "generated_ts": 1784884321270,
+  "generated_at": "2026-07-25T01:15:19.942+08:00",
+  "generated_ts": 1784913319942,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -2831,24 +2831,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1075/target.25274.lud",
-      "title": "Review of Asscher (2026): Machine Translation and Translation Theory",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2026-05-19T00:00:00.000Z",
-      "pubDateStr": "2026-05-19",
-      "authors": "Ludewig Alexandra",
-      "doi": "10.1075/target.25274.lud",
-      "articleUrl": "https://doi.org/10.1075/target.25274.lud",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "",
-      "source": "crossref"
-    },
-    {
       "id": "10.1075/target.26134.xu",
       "title": "Review of Robinson (2025): A Zombie Theory of Translation: Or, What is a “Revenant” Translation?",
       "journal": "Target. International Journal of Translation Studies",
@@ -2861,6 +2843,24 @@
       "authors": "Xu Yang",
       "doi": "10.1075/target.26134.xu",
       "articleUrl": "https://doi.org/10.1075/target.26134.xu",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1075/target.25274.lud",
+      "title": "Review of Asscher (2026): Machine Translation and Translation Theory",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-05-19T00:00:00.000Z",
+      "pubDateStr": "2026-05-19",
+      "authors": "Ludewig Alexandra",
+      "doi": "10.1075/target.25274.lud",
+      "articleUrl": "https://doi.org/10.1075/target.25274.lud",
       "keywords": [],
       "abstract": "",
       "volumeStr": "",
