@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T23:47:28.710+08:00",
-  "generated_ts": 1785080848710,
+  "generated_at": "2026-07-27T20:40:54.611+08:00",
+  "generated_ts": 1785156054611,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -959,24 +959,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/13556509.2026.2672383",
-      "title": "Sovereignty in translation: Western Sahara, international law, and translation as a decolonial strategy",
-      "journal": "The Translator",
-      "journalId": "translator",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rtrn20",
-      "pubDate": "2026-05-14T00:00:00.000Z",
-      "pubDateStr": "2026-05-14",
-      "authors": "Boukhaffa Abderrahman",
-      "doi": "10.1080/13556509.2026.2672383",
-      "articleUrl": "https://doi.org/10.1080/13556509.2026.2672383",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-20",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/13556509.2026.2644240",
       "title": "The cross-cultural journey of Cherries on a Pomegranate Tree : translation, paratexts, and the overseas dissemination of Chinese literature",
       "journal": "The Translator",
@@ -991,25 +973,7 @@
       "articleUrl": "https://doi.org/10.1080/13556509.2026.2644240",
       "keywords": [],
       "abstract": "",
-      "volumeStr": "pp. 1-20",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/13556509.2026.2663781",
-      "title": "Book review",
-      "journal": "The Translator",
-      "journalId": "translator",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rtrn20",
-      "pubDate": "2026-04-27T00:00:00.000Z",
-      "pubDateStr": "2026-04-27",
-      "authors": "Pieta Hanna",
-      "doi": "10.1080/13556509.2026.2663781",
-      "articleUrl": "https://doi.org/10.1080/13556509.2026.2663781",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-4",
+      "volumeStr": "Vol. 32(2), pp. 133-152",
       "source": "crossref"
     },
     {
@@ -1027,7 +991,43 @@
       "articleUrl": "https://doi.org/10.1080/13556509.2026.2651886",
       "keywords": [],
       "abstract": "",
-      "volumeStr": "pp. 1-19",
+      "volumeStr": "Vol. 32(2), pp. 173-191",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/13556509.2026.2663781",
+      "title": "Book review",
+      "journal": "The Translator",
+      "journalId": "translator",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rtrn20",
+      "pubDate": "2026-04-27T00:00:00.000Z",
+      "pubDateStr": "2026-04-27",
+      "authors": "Pieta Hanna",
+      "doi": "10.1080/13556509.2026.2663781",
+      "articleUrl": "https://doi.org/10.1080/13556509.2026.2663781",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "Vol. 32(2), pp. 192-195",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/13556509.2026.2672383",
+      "title": "Sovereignty in translation: Western Sahara, international law, and translation as a decolonial strategy",
+      "journal": "The Translator",
+      "journalId": "translator",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rtrn20",
+      "pubDate": "2026-05-14T00:00:00.000Z",
+      "pubDateStr": "2026-05-14",
+      "authors": "Boukhaffa Abderrahman",
+      "doi": "10.1080/13556509.2026.2672383",
+      "articleUrl": "https://doi.org/10.1080/13556509.2026.2672383",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "Vol. 32(2), pp. 153-172",
       "source": "crossref"
     },
     {
