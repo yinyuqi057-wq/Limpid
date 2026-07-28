@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T17:49:18.944+08:00",
-  "generated_ts": 1785232158944,
+  "generated_at": "2026-07-29T01:12:49.913+08:00",
+  "generated_ts": 1785258769913,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,24 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2703170",
+      "title": "Transcreation guidelines for migrant health information materials: a multimodal and participatory framework",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-07-28T00:00:00.000Z",
+      "pubDateStr": "2026-07-28",
+      "authors": "Jiménez-Castro María, Olvera-Lobo María-Dolores",
+      "doi": "10.1080/0907676x.2026.2703170",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2703170",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-22",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2703838",
       "title": "Human–machine interaction and legal translation",
@@ -488,24 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "Vol. 34(3), pp. 411-425",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2657831",
-      "title": "Self-censorship rules in the translation of foreign lyrics during the advent of pop music in Francoist Spain, 1959–1969",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-04-29T00:00:00.000Z",
-      "pubDateStr": "2026-04-29",
-      "authors": "Dols Gallardo Gabriel",
-      "doi": "10.1080/0907676x.2026.2657831",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2657831",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-17",
       "source": "crossref"
     },
     {
@@ -2831,24 +2831,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1075/target.25274.lud",
-      "title": "Review of Asscher (2026): Machine Translation and Translation Theory",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2026-05-19T00:00:00.000Z",
-      "pubDateStr": "2026-05-19",
-      "authors": "Ludewig Alexandra",
-      "doi": "10.1075/target.25274.lud",
-      "articleUrl": "https://doi.org/10.1075/target.25274.lud",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "",
-      "source": "crossref"
-    },
-    {
       "id": "10.1075/target.26134.xu",
       "title": "Review of Robinson (2025): A Zombie Theory of Translation: Or, What is a “Revenant” Translation?",
       "journal": "Target. International Journal of Translation Studies",
@@ -2861,6 +2843,24 @@
       "authors": "Xu Yang",
       "doi": "10.1075/target.26134.xu",
       "articleUrl": "https://doi.org/10.1075/target.26134.xu",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1075/target.25274.lud",
+      "title": "Review of Asscher (2026): Machine Translation and Translation Theory",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-05-19T00:00:00.000Z",
+      "pubDateStr": "2026-05-19",
+      "authors": "Ludewig Alexandra",
+      "doi": "10.1075/target.25274.lud",
+      "articleUrl": "https://doi.org/10.1075/target.25274.lud",
       "keywords": [],
       "abstract": "",
       "volumeStr": "",
