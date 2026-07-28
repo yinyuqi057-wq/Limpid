@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T20:40:54.611+08:00",
-  "generated_ts": 1785156054611,
+  "generated_at": "2026-07-28T17:49:18.944+08:00",
+  "generated_ts": 1785232158944,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,42 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2703838",
+      "title": "Human–machine interaction and legal translation",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-07-27T00:00:00.000Z",
+      "pubDateStr": "2026-07-27",
+      "authors": "Mileto Fiorenza",
+      "doi": "10.1080/0907676x.2026.2703838",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2703838",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-22",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2701783",
+      "title": "Subtitle speed in the spotlight. The case of streaming services",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-07-27T00:00:00.000Z",
+      "pubDateStr": "2026-07-27",
+      "authors": "Fresno Nazaret, Igareda Paula, Arnáiz-Uzquiza Verónica",
+      "doi": "10.1080/0907676x.2026.2701783",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2701783",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-16",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2696986",
       "title": "Enhancing Chinese-to-English legal translation by generative artificial intelligence: a corpus-informed prompt engineering approach",
@@ -470,42 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-17",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2662527",
-      "title": "Cognitive load and processing in sight interpreting/translation: indicators and perspectives",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-04-29T00:00:00.000Z",
-      "pubDateStr": "2026-04-29",
-      "authors": "Xiao Yao, Ho Chen-En",
-      "doi": "10.1080/0907676x.2026.2662527",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2662527",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2661831",
-      "title": "Translating ink across mediums, traditions, and cultures: experiments in Gu Wenda’s ink art practice",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-04-29T00:00:00.000Z",
-      "pubDateStr": "2026-04-29",
-      "authors": "Duan Ruoyu",
-      "doi": "10.1080/0907676x.2026.2661831",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2661831",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-18",
       "source": "crossref"
     },
     {
