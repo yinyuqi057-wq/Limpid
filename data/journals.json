@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T00:53:08.331+08:00",
-  "generated_ts": 1785343988331,
+  "generated_at": "2026-07-30T17:37:41.023+08:00",
+  "generated_ts": 1785404261023,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -959,6 +959,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1080/13556509.2026.2708631",
+      "title": "Translation as Mission vs. livelihood: Robert Morrison and the politics of bilingual mediation in Qing China",
+      "journal": "The Translator",
+      "journalId": "translator",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rtrn20",
+      "pubDate": "2026-07-30T00:00:00.000Z",
+      "pubDateStr": "2026-07-30",
+      "authors": "Deng Lianjian, Chen Ling",
+      "doi": "10.1080/13556509.2026.2708631",
+      "articleUrl": "https://doi.org/10.1080/13556509.2026.2708631",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-16",
+      "source": "crossref"
+    },
+    {
       "id": "10.1080/13556509.2026.2644240",
       "title": "The cross-cultural journey of Cherries on a Pomegranate Tree : translation, paratexts, and the overseas dissemination of Chinese literature",
       "journal": "The Translator",
@@ -1388,24 +1406,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "Vol. 31(4), pp. 357-376",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/13556509.2025.2507937",
-      "title": "Inclusion, diversity and innovation in translation education",
-      "journal": "The Translator",
-      "journalId": "translator",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rtrn20",
-      "pubDate": "2025-05-29T00:00:00.000Z",
-      "pubDateStr": "2025-05-29",
-      "authors": "Cadwell Patrick",
-      "doi": "10.1080/13556509.2025.2507937",
-      "articleUrl": "https://doi.org/10.1080/13556509.2025.2507937",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 31(3), pp. 327-330",
       "source": "crossref"
     },
     {
