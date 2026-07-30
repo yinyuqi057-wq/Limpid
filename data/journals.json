@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T17:37:41.023+08:00",
-  "generated_ts": 1785404261023,
+  "generated_at": "2026-07-31T01:09:56.462+08:00",
+  "generated_ts": 1785431396462,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,42 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2707114",
+      "title": "‘I’m an arrogant cow because I quarrel with them'. Activist interpreters navigating positionalities in the context of anonymous births",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-07-30T00:00:00.000Z",
+      "pubDateStr": "2026-07-30",
+      "authors": "Pöllabauer Sonja, Bartłomiejczyk Magdalena",
+      "doi": "10.1080/0907676x.2026.2707114",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2707114",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-20",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2698010",
+      "title": "Metaphor as ideological gatekeeping: translating sovereignty in English–Spanish news coverage of the Gibraltar dispute",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-07-30T00:00:00.000Z",
+      "pubDateStr": "2026-07-30",
+      "authors": "Muñoz-Basols Javier, Cabeza-Campillo Daniel",
+      "doi": "10.1080/0907676x.2026.2698010",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2698010",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-21",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2703170",
       "title": "Transcreation guidelines for migrant health information materials: a multimodal and participatory framework",
@@ -470,42 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2659241",
-      "title": "A (re)positioning of imitation in translation studies: the Murat Davman crime fiction series as an imitative translation",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-05-05T00:00:00.000Z",
-      "pubDateStr": "2026-05-05",
-      "authors": "Karabulut Emine, Karadağ Ayşe Banu",
-      "doi": "10.1080/0907676x.2026.2659241",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2659241",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-16",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2661168",
-      "title": "On the crossroads of pragmatics and translation studies: the translation of (im)politeness and vulgar language in audiovisual translation",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-04-30T00:00:00.000Z",
-      "pubDateStr": "2026-04-30",
-      "authors": "Huang Qin, Valdeón Roberto A.",
-      "doi": "10.1080/0907676x.2026.2661168",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2661168",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 34(3), pp. 411-425",
       "source": "crossref"
     },
     {
@@ -2237,24 +2237,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1075/babel.25210.shy",
-      "title": "Fusion and “contra fusion”",
-      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
-      "journalId": "babel",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/babel",
-      "pubDate": "2026-03-12T00:00:00.000Z",
-      "pubDateStr": "2026-03-12",
-      "authors": "Shyrokova Manno Alla",
-      "doi": "10.1075/babel.25210.shy",
-      "articleUrl": "https://doi.org/10.1075/babel.25210.shy",
-      "keywords": [],
-      "abstract": "Abstract This article investigates Lawrence Venuti’s English translation of Edward Hopper , a Catalan poetry collection by Ernest Farrés inspired by the American painter’s work. It develops the concept of “contra fusion” to describe a mode of translation that foregrounds interpretive agency, cultural specificity, and polyphonic authorship. Drawing on key theories of poetry translation and ekphrasis, the article situates Venuti’s method within a broader hermeneutic tradition, emphasizing the tran",
-      "volumeStr": "Vol. 72(3), pp. 340-363",
-      "source": "crossref"
-    },
-    {
       "id": "10.1075/babel.25182.xu",
       "title": "A pedagogical pilot on cross-curricular integration of Technical Writing and Computer-Assisted Translation",
       "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
@@ -2270,6 +2252,24 @@
       "keywords": [],
       "abstract": "Abstract This pedagogical pilot explores the effects of deliberate cross-curricular integration of Technical Writing (TW) and Computer-Assisted Translation (CAT) courses on students’ intercultural adaptation skills, focusing on culturally adapting a Chinese restaurant menu for English-speaking diners. It supports multilingual and multicultural accommodations in a global translation context by addressing gaps in translator training, including unclear definitions, limited empirical evidence, narro",
       "volumeStr": "Vol. 72(3), pp. 364-403",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1075/babel.25210.shy",
+      "title": "Fusion and “contra fusion”",
+      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
+      "journalId": "babel",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/babel",
+      "pubDate": "2026-03-12T00:00:00.000Z",
+      "pubDateStr": "2026-03-12",
+      "authors": "Shyrokova Manno Alla",
+      "doi": "10.1075/babel.25210.shy",
+      "articleUrl": "https://doi.org/10.1075/babel.25210.shy",
+      "keywords": [],
+      "abstract": "Abstract This article investigates Lawrence Venuti’s English translation of Edward Hopper , a Catalan poetry collection by Ernest Farrés inspired by the American painter’s work. It develops the concept of “contra fusion” to describe a mode of translation that foregrounds interpretive agency, cultural specificity, and polyphonic authorship. Drawing on key theories of poetry translation and ekphrasis, the article situates Venuti’s method within a broader hermeneutic tradition, emphasizing the tran",
+      "volumeStr": "Vol. 72(3), pp. 340-363",
       "source": "crossref"
     },
     {
@@ -2759,6 +2759,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/target.25041.hua",
+      "title": "Mirror your words, but NOT your wordings",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-07-30T00:00:00.000Z",
+      "pubDateStr": "2026-07-30",
+      "authors": "Huang Xinyi, Lin Yumeng, Liang Junying",
+      "doi": "10.1075/target.25041.hua",
+      "articleUrl": "https://doi.org/10.1075/target.25041.hua",
+      "keywords": [],
+      "abstract": "Abstract Current research has demonstrated the potential of large language models, such as GPT, as powerful translation tools. However, gaps remain in understanding how human and machine translation differ across linguistic and structural levels. This study adopts a network-based approach, using syntactic dependency networks to investigate structural differences in translations produced by humans and machines (Google Translate and ChatGPT). The findings revealed that human translation networks e",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/target.25067.sun",
       "title": "Translating manner-of-motion in comics",
       "journal": "Target. International Journal of Translation Studies",
@@ -3188,24 +3206,6 @@
       "keywords": [],
       "abstract": "Abstract In this exploratory study, we investigated rater cognition in English–Chinese translation assessment, drawing on think-aloud, eye-tracking, and interview data. We designed a 3 × 2 × 2 experiment in which experienced raters assessed eighteen renditions of three levels of quality for each translation direction, using a Likert-type scale or analytic rubric scale. We found that: (a) the raters heeded meaning transfer more frequently than other contents; (b) they utilized a variety of proces",
       "volumeStr": "Vol. 37(4), pp. 590-626",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/target.24063.erk",
-      "title": "The role of translation in the travels of ‘mansplaining’",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2025-09-05T00:00:00.000Z",
-      "pubDateStr": "2025-09-05",
-      "authors": "Erkazanci Durmus Hilal",
-      "doi": "10.1075/target.24063.erk",
-      "articleUrl": "https://doi.org/10.1075/target.24063.erk",
-      "keywords": [],
-      "abstract": "Abstract This study discusses ‘mansplaining’ as a traveling neologism, tracing its trajectory across online activist platforms in Türkiye. The study shows that the initial Turkish equivalents that were proposed for ‘mansplaining’ on feminist blogs sparked controversy owing to their emphasis on male genitalia and physiology. Those equivalents reveal that narratives of heterosexuality, gender binaries, and biological essentialism may permeate feminist translation, which, despite its progressive in",
-      "volumeStr": "Vol. 37(4), pp. 489-512",
       "source": "crossref"
     },
     {
