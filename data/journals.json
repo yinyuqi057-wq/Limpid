@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T01:09:56.462+08:00",
-  "generated_ts": 1785431396462,
+  "generated_at": "2026-07-31T18:05:33.128+08:00",
+  "generated_ts": 1785492333128,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -2309,6 +2309,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/intp.00136.fan",
+      "title": "Audience feedback on platform-mediated simultaneous interpreting in a livestream chat",
+      "journal": "Interpreting. International Journal of Research and Practice in Interpreting",
+      "journalId": "interpreting",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/intp",
+      "pubDate": "2026-07-31T00:00:00.000Z",
+      "pubDateStr": "2026-07-31",
+      "authors": "Fan Damien Chiaming",
+      "doi": "10.1075/intp.00136.fan",
+      "articleUrl": "https://doi.org/10.1075/intp.00136.fan",
+      "keywords": [],
+      "abstract": "Abstract Interpreting quality is often discussed in relation to users’ perceptions, yet most user-oriented evidence is derived from surveys or experiments that only partially capture the way evaluation unfolds under broadcast and platform conditions. This article examines the real-time reception of simultaneous interpreting in a digitally mediated public event, focusing on a remote audience. Their unsolicited evaluative discourse is produced in a livestream chat rather than in co-present interac",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/intp.00135.del",
       "title": "Language assistance in the Criminal Court",
       "journal": "Interpreting. International Journal of Research and Practice in Interpreting",
@@ -2741,24 +2759,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1075/intp.00110.fan",
-      "title": "Conference interpreters’ technology readiness and perception of digital technologies",
-      "journal": "Interpreting. International Journal of Research and Practice in Interpreting",
-      "journalId": "interpreting",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/intp",
-      "pubDate": "2024-09-19T00:00:00.000Z",
-      "pubDateStr": "2024-09-19",
-      "authors": "Fan Damien Chiaming",
-      "doi": "10.1075/intp.00110.fan",
-      "articleUrl": "https://doi.org/10.1075/intp.00110.fan",
-      "keywords": [],
-      "abstract": "Abstract The author reports on the findings of a survey among conference interpreters regarding their readiness for and perceptions of digital technologies and artificial intelligence. The Technology Readiness Index (TRI 2.0) was administered to a sample of 496 conference interpreters, most of them members of AIIC. In addition, semi-structured interviews were conducted with 25 of them to gain deeper insights into their attitudes towards AI-enabled tools and the potential impact on their professi",
-      "volumeStr": "Vol. 26(2), pp. 178-200",
-      "source": "crossref"
-    },
-    {
       "id": "10.1075/target.25041.hua",
       "title": "Mirror your words, but NOT your wordings",
       "journal": "Target. International Journal of Translation Studies",
@@ -2849,24 +2849,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1075/target.26134.xu",
-      "title": "Review of Robinson (2025): A Zombie Theory of Translation: Or, What is a “Revenant” Translation?",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2026-05-19T00:00:00.000Z",
-      "pubDateStr": "2026-05-19",
-      "authors": "Xu Yang",
-      "doi": "10.1075/target.26134.xu",
-      "articleUrl": "https://doi.org/10.1075/target.26134.xu",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "",
-      "source": "crossref"
-    },
-    {
       "id": "10.1075/target.25274.lud",
       "title": "Review of Asscher (2026): Machine Translation and Translation Theory",
       "journal": "Target. International Journal of Translation Studies",
@@ -2879,6 +2861,24 @@
       "authors": "Ludewig Alexandra",
       "doi": "10.1075/target.25274.lud",
       "articleUrl": "https://doi.org/10.1075/target.25274.lud",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1075/target.26134.xu",
+      "title": "Review of Robinson (2025): A Zombie Theory of Translation: Or, What is a “Revenant” Translation?",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-05-19T00:00:00.000Z",
+      "pubDateStr": "2026-05-19",
+      "authors": "Xu Yang",
+      "doi": "10.1075/target.26134.xu",
+      "articleUrl": "https://doi.org/10.1075/target.26134.xu",
       "keywords": [],
       "abstract": "",
       "volumeStr": "",
