@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-01T01:12:24.221+08:00",
-  "generated_ts": 1785517944221,
+  "generated_at": "2026-08-01T15:53:59.458+08:00",
+  "generated_ts": 1785570839458,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -2219,24 +2219,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1075/babel.25234.yil",
-      "title": "Perspectives sur la traduction bénévole en Turquie",
-      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
-      "journalId": "babel",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/babel",
-      "pubDate": "2026-03-12T00:00:00.000Z",
-      "pubDateStr": "2026-03-12",
-      "authors": "Yıldırım Yaşar Ceylan",
-      "doi": "10.1075/babel.25234.yil",
-      "articleUrl": "https://doi.org/10.1075/babel.25234.yil",
-      "keywords": [],
-      "abstract": "Résumé La traduction bénévole peut être effectuée à des fins et orientations différentes autre que son objectif essentiel. Cette étude vise à révéler le regard des ONG et des traducteurs turcs sur la traduction bénévole, tout en attirant l’attention sur le but essentiel du bénévolat ainsi que sur une sensibilisation à ce sujet. Dans ce contexte, les discours des ONG turques sur leurs sites web et ceux des traducteurs turcs sur le site Proz.com à propos de la traduction bénévole sont analysés dan",
-      "volumeStr": "Vol. 72(2), pp. 250-278",
-      "source": "crossref"
-    },
-    {
       "id": "10.1075/babel.25182.xu",
       "title": "A pedagogical pilot on cross-curricular integration of Technical Writing and Computer-Assisted Translation",
       "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
@@ -2270,6 +2252,24 @@
       "keywords": [],
       "abstract": "Abstract This article investigates Lawrence Venuti’s English translation of Edward Hopper , a Catalan poetry collection by Ernest Farrés inspired by the American painter’s work. It develops the concept of “contra fusion” to describe a mode of translation that foregrounds interpretive agency, cultural specificity, and polyphonic authorship. Drawing on key theories of poetry translation and ekphrasis, the article situates Venuti’s method within a broader hermeneutic tradition, emphasizing the tran",
       "volumeStr": "Vol. 72(3), pp. 340-363",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1075/babel.25234.yil",
+      "title": "Perspectives sur la traduction bénévole en Turquie",
+      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
+      "journalId": "babel",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/babel",
+      "pubDate": "2026-03-12T00:00:00.000Z",
+      "pubDateStr": "2026-03-12",
+      "authors": "Yıldırım Yaşar Ceylan",
+      "doi": "10.1075/babel.25234.yil",
+      "articleUrl": "https://doi.org/10.1075/babel.25234.yil",
+      "keywords": [],
+      "abstract": "Résumé La traduction bénévole peut être effectuée à des fins et orientations différentes autre que son objectif essentiel. Cette étude vise à révéler le regard des ONG et des traducteurs turcs sur la traduction bénévole, tout en attirant l’attention sur le but essentiel du bénévolat ainsi que sur une sensibilisation à ce sujet. Dans ce contexte, les discours des ONG turques sur leurs sites web et ceux des traducteurs turcs sur le site Proz.com à propos de la traduction bénévole sont analysés dan",
+      "volumeStr": "Vol. 72(2), pp. 250-278",
       "source": "crossref"
     },
     {
@@ -2849,24 +2849,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1075/target.26134.xu",
-      "title": "Review of Robinson (2025): A Zombie Theory of Translation: Or, What is a “Revenant” Translation?",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2026-05-19T00:00:00.000Z",
-      "pubDateStr": "2026-05-19",
-      "authors": "Xu Yang",
-      "doi": "10.1075/target.26134.xu",
-      "articleUrl": "https://doi.org/10.1075/target.26134.xu",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "",
-      "source": "crossref"
-    },
-    {
       "id": "10.1075/target.25274.lud",
       "title": "Review of Asscher (2026): Machine Translation and Translation Theory",
       "journal": "Target. International Journal of Translation Studies",
@@ -2879,6 +2861,24 @@
       "authors": "Ludewig Alexandra",
       "doi": "10.1075/target.25274.lud",
       "articleUrl": "https://doi.org/10.1075/target.25274.lud",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1075/target.26134.xu",
+      "title": "Review of Robinson (2025): A Zombie Theory of Translation: Or, What is a “Revenant” Translation?",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-05-19T00:00:00.000Z",
+      "pubDateStr": "2026-05-19",
+      "authors": "Xu Yang",
+      "doi": "10.1075/target.26134.xu",
+      "articleUrl": "https://doi.org/10.1075/target.26134.xu",
       "keywords": [],
       "abstract": "",
       "volumeStr": "",
