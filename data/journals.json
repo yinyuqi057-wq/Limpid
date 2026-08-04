@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T20:40:51.227+08:00",
-  "generated_ts": 1785760851227,
+  "generated_at": "2026-08-04T18:16:01.168+08:00",
+  "generated_ts": 1785838561168,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,24 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2687799",
+      "title": "Evaluating translation performance of Large Language Models in maritime legal translation",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-08-04T00:00:00.000Z",
+      "pubDateStr": "2026-08-04",
+      "authors": "Liu Shijie, Zhang Yan",
+      "doi": "10.1080/0907676x.2026.2687799",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2687799",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-22",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2707122",
       "title": "Effects of speaker deviation on interpreters’ cognitive processes during simultaneous interpreting with text: evidence from eye-tracking, output analysis, and retrospective interview",
@@ -488,24 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-20",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2673929",
-      "title": "Framing and negotiating Homer: paratextual strategies and cultural ideologies in English translation history",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-05-19T00:00:00.000Z",
-      "pubDateStr": "2026-05-19",
-      "authors": "Verzella Massimo",
-      "doi": "10.1080/0907676x.2026.2673929",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2673929",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-17",
       "source": "crossref"
     },
     {
