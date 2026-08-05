@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-05T02:14:37.874+08:00",
-  "generated_ts": 1785867277874,
+  "generated_at": "2026-08-05T18:12:00.227+08:00",
+  "generated_ts": 1785924720227,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -1409,6 +1409,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1080/14781700.2026.2639071",
+      "title": "The institutional roots of translation and interpretation in premodern Europe",
+      "journal": "Translation Studies",
+      "journalId": "translation-studies",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rtrs20",
+      "pubDate": "2026-08-04T00:00:00.000Z",
+      "pubDateStr": "2026-08-04",
+      "authors": "Izquierdo Adrián",
+      "doi": "10.1080/14781700.2026.2639071",
+      "articleUrl": "https://doi.org/10.1080/14781700.2026.2639071",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-15",
+      "source": "crossref"
+    },
+    {
       "id": "10.1080/14781700.2026.2688776",
       "title": "Change and continuity in historical translation policies through institutional models and policy circulation: the case of the League of Nations",
       "journal": "Translation Studies",
@@ -1838,24 +1856,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "Vol. 19(1), pp. 93-114",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/14781700.2025.2552673",
-      "title": "Translation as circuit-breaker: reading the counter-discourse of the website-repository of translations in Kerala",
-      "journal": "Translation Studies",
-      "journalId": "translation-studies",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rtrs20",
-      "pubDate": "2025-11-18T00:00:00.000Z",
-      "pubDateStr": "2025-11-18",
-      "authors": "Mathew Anju, Sircar Ajanta",
-      "doi": "10.1080/14781700.2025.2552673",
-      "articleUrl": "https://doi.org/10.1080/14781700.2025.2552673",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 19(1), pp. 59-73",
       "source": "crossref"
     },
     {
