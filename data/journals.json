@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T12:50:45.620+08:00",
-  "generated_ts": 1786423845620,
+  "generated_at": "2026-08-11T23:30:15.119+08:00",
+  "generated_ts": 1786462215119,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -509,6 +509,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1080/1750399x.2026.2716777",
+      "title": "Beyond the surface: uncovering trainee translators’ reading processes during GenAI translation quality evaluation tasks",
+      "journal": "The Interpreter and Translator Trainer",
+      "journalId": "itt",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/ritt20",
+      "pubDate": "2026-08-11T00:00:00.000Z",
+      "pubDateStr": "2026-08-11",
+      "authors": "Zhang Hengtian, Ma Xingcheng, Huang Yujie, Li Dechao",
+      "doi": "10.1080/1750399x.2026.2716777",
+      "articleUrl": "https://doi.org/10.1080/1750399x.2026.2716777",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-27",
+      "source": "crossref"
+    },
+    {
       "id": "10.1080/1750399x.2026.2701652",
       "title": "Web, GenAI, or hybrid? Effects of information-seeking conditions and text types on MTPE process, product, and perception",
       "journal": "The Interpreter and Translator Trainer",
@@ -935,24 +953,6 @@
       "authors": "Pena Carmen, Sanz Andrea",
       "doi": "10.1080/1750399x.2025.2577534",
       "articleUrl": "https://doi.org/10.1080/1750399x.2025.2577534",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-19",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/1750399x.2025.2563948",
-      "title": "Subtitle templates in peripheral contexts: theoretical considerations and pedagogical implications in audiovisual translation education",
-      "journal": "The Interpreter and Translator Trainer",
-      "journalId": "itt",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/ritt20",
-      "pubDate": "2025-10-06T00:00:00.000Z",
-      "pubDateStr": "2025-10-06",
-      "authors": "Athanasiadi Rafaella, Floros Georgios",
-      "doi": "10.1080/1750399x.2025.2563948",
-      "articleUrl": "https://doi.org/10.1080/1750399x.2025.2563948",
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-19",
