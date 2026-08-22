@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T20:48:12.127+08:00",
-  "generated_ts": 1787316492127,
+  "generated_at": "2026-08-22T09:14:38.570+08:00",
+  "generated_ts": 1787361278570,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -2759,6 +2759,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/target.24106.kus",
+      "title": "Legal translation and legal survivals",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-08-21T00:00:00.000Z",
+      "pubDateStr": "2026-08-21",
+      "authors": "Kusik Przemysław",
+      "doi": "10.1075/target.24106.kus",
+      "articleUrl": "https://doi.org/10.1075/target.24106.kus",
+      "keywords": [],
+      "abstract": "Abstract This study explores the relevance of the concept of legal survivals, proposed by the legal scholar Rafał Mańko, for legal translation purposes. The concept of legal survivals, in parallel to the well-known notion of legal transplants, problematises a specific aspect of legal continuity, namely the continued existence of certain units of legal culture despite transformations of a given jurisdiction’s legal system. Translating texts relating to such institutions raises difficult questions",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/target.25041.hua",
       "title": "Mirror your words, but NOT your wordings",
       "journal": "Target. International Journal of Translation Studies",
@@ -3191,21 +3209,21 @@
       "source": "crossref"
     },
     {
-      "id": "10.1075/target.23040.han",
-      "title": "Modeling rater cognition in translation assessment",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
+      "id": "10.1075/tis.25089.bae",
+      "title": "A star (translator) is born",
+      "journal": "Translation and Interpreting Studies",
+      "journalId": "tis",
       "publisher": "John Benjamins",
       "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2025-09-11T00:00:00.000Z",
-      "pubDateStr": "2025-09-11",
-      "authors": "Han Chao, Chen Shirong, Feng Jia",
-      "doi": "10.1075/target.23040.han",
-      "articleUrl": "https://doi.org/10.1075/target.23040.han",
+      "siteUrl": "https://benjamins.com/catalog/tis",
+      "pubDate": "2026-08-21T00:00:00.000Z",
+      "pubDateStr": "2026-08-21",
+      "authors": "Baer Brian James, de la Morena-Corrales Javier",
+      "doi": "10.1075/tis.25089.bae",
+      "articleUrl": "https://doi.org/10.1075/tis.25089.bae",
       "keywords": [],
-      "abstract": "Abstract In this exploratory study, we investigated rater cognition in English–Chinese translation assessment, drawing on think-aloud, eye-tracking, and interview data. We designed a 3 × 2 × 2 experiment in which experienced raters assessed eighteen renditions of three levels of quality for each translation direction, using a Likert-type scale or analytic rubric scale. We found that: (a) the raters heeded meaning transfer more frequently than other contents; (b) they utilized a variety of proces",
-      "volumeStr": "Vol. 37(4), pp. 590-626",
+      "abstract": "Abstract This article examines a little-known Cold War translation conflict involving a young bilingual editor, Andrée Conrad, and the celebrated translator Gregory Rabassa, whose delayed English translation of Cuban writer José Lezama Lima’s Paradiso (1974) sparked tensions among the editor, author, and translator. Drawing on a range of archival materials, the article challenges Rabassa’s carefully curated public narrative, which deflected blame onto Conrad to preserve his growing cultural and ",
+      "volumeStr": "",
       "source": "crossref"
     },
     {
@@ -3638,24 +3656,6 @@
       "keywords": [],
       "abstract": "Abstract The COVID-19 pandemic saw a sharp rise in social media communication trafficking in divisive stereotypes. The article traces and analyzes the translingual and cross-cultural dialogues around the racist term “Chinese virus” on Twitter and its Chinese counterpart, Weibo. For that purpose, a corpus of online translated texts related to the dissemination and reception of “Chinese virus” was constructed. Analysis found that the strategies of transliteration, literal translation, hybrid trans",
       "volumeStr": "Vol. 20(1), pp. 129-148",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/tis.23053.wan",
-      "title": "Strategic additions in simultaneous interpreting from a signed language into a spoken language",
-      "journal": "Translation and Interpreting Studies",
-      "journalId": "tis",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/tis",
-      "pubDate": "2025-05-26T00:00:00.000Z",
-      "pubDateStr": "2025-05-26",
-      "authors": "Wang Jihong",
-      "doi": "10.1075/tis.23053.wan",
-      "articleUrl": "https://doi.org/10.1075/tis.23053.wan",
-      "keywords": [],
-      "abstract": "Abstract This quasi-experimental study explored professional Australian Sign Language (Auslan)/English interpreters’ strategic additions when interpreting an Auslan presentation into spoken English in the simultaneous mode. The product analysis involves the researcher and a research assistant identifying and categorizing participants’ strategic additions independently, using a corpus-driven approach. The process analysis entails the researcher analyzing participants’ retrospective interviews to ",
-      "volumeStr": "Vol. 20(1), pp. 24-49",
       "source": "crossref"
     }
   ]
