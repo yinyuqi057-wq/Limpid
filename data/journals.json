@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T17:59:14.019+08:00",
-  "generated_ts": 1787911154019,
+  "generated_at": "2026-08-29T05:46:13.036+08:00",
+  "generated_ts": 1787953573036,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,24 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2703171",
+      "title": "To swear or not to swear: a quantitative study of swearword translation in Dave Chappelle’s stand-up comedy",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-08-28T00:00:00.000Z",
+      "pubDateStr": "2026-08-28",
+      "authors": "Mou Yifei, Xu Han",
+      "doi": "10.1080/0907676x.2026.2703171",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2703171",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-23",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2687799",
       "title": "Evaluating translation performance of Large Language Models in maritime legal translation",
@@ -488,24 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-22",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2676960",
-      "title": "Moving back in time: subtitling in the Second Polish Republic",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-06-03T00:00:00.000Z",
-      "pubDateStr": "2026-06-03",
-      "authors": "Plewa Elżbieta, Rędzioch-Korkuz Anna",
-      "doi": "10.1080/0907676x.2026.2676960",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2676960",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-21",
       "source": "crossref"
     },
     {
