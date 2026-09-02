@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T11:17:01.558+08:00",
-  "generated_ts": 1788319021558,
+  "generated_at": "2026-09-03T00:06:05.903+08:00",
+  "generated_ts": 1788365165903,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,24 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2708899",
+      "title": "ASR-based input and cognitive load in simultaneous interpreting: a triangulation of performance, eye-tracking, and self-reported data",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-09-02T00:00:00.000Z",
+      "pubDateStr": "2026-09-02",
+      "authors": "Rozkrut Paulina, Chmiel Agnieszka",
+      "doi": "10.1080/0907676x.2026.2708899",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2708899",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-22",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2703171",
       "title": "To swear or not to swear: a quantitative study of swearword translation in Dave Chappelle’s stand-up comedy",
@@ -488,24 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-16",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2678403",
-      "title": "Mind wandering and cognitive load in subtitled educational videos: evidence from experience sampling, content learning, and psychometric indicators",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-06-05T00:00:00.000Z",
-      "pubDateStr": "2026-06-05",
-      "authors": "Yonamine Mariana, Zhao Xiaoyu, Zhang Jia, Doherty Stephen",
-      "doi": "10.1080/0907676x.2026.2678403",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2678403",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-22",
       "source": "crossref"
     },
     {
