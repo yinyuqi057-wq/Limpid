@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T11:18:52.142+08:00",
-  "generated_ts": 1788405532142,
+  "generated_at": "2026-09-03T23:55:17.107+08:00",
+  "generated_ts": 1788450917107,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,24 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2711318",
+      "title": "Path-making translators and the spatial logic of literary circulation: Howard Goldblatt and Mo Yan’s U.S. trajectory",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-09-03T00:00:00.000Z",
+      "pubDateStr": "2026-09-03",
+      "authors": "Yang Jing",
+      "doi": "10.1080/0907676x.2026.2711318",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2711318",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-19",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2708899",
       "title": "ASR-based input and cognitive load in simultaneous interpreting: a triangulation of performance, eye-tracking, and self-reported data",
@@ -488,24 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "Vol. 34(4), pp. 655-660",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2690391",
-      "title": "Evaluating COMET-Kiwi for Korean–Spanish bidirectional translation: a translation studies and linguistic analysis",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-07-02T00:00:00.000Z",
-      "pubDateStr": "2026-07-02",
-      "authors": "Hwang Kyungjin",
-      "doi": "10.1080/0907676x.2026.2690391",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2690391",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-16",
       "source": "crossref"
     },
     {
