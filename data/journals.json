@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T11:19:02.961+08:00",
-  "generated_ts": 1788491942961,
+  "generated_at": "2026-09-04T23:53:08.045+08:00",
+  "generated_ts": 1788537188045,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,42 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2724254",
+      "title": "Shaping the register in crowdsourced crisis translation: an actor-network approach",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-09-04T00:00:00.000Z",
+      "pubDateStr": "2026-09-04",
+      "authors": "Yuan Rongjie",
+      "doi": "10.1080/0907676x.2026.2724254",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2724254",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-20",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2695708",
+      "title": "The accuracy of automatic subtitles in Basque: a comparison between four speech-to-text programs",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-09-04T00:00:00.000Z",
+      "pubDateStr": "2026-09-04",
+      "authors": "Ros-Abaurrea Alejandro, Tamayo Ana",
+      "doi": "10.1080/0907676x.2026.2695708",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2695708",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-22",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2711318",
       "title": "Path-making translators and the spatial logic of literary circulation: Howard Goldblatt and Mo Yan’s U.S. trajectory",
@@ -470,42 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2691889",
-      "title": "Does simplification hypothesis still hold true for LLM-translated legal texts? A mixed-effects model approach",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-07-06T00:00:00.000Z",
-      "pubDateStr": "2026-07-06",
-      "authors": "Qian Jiajun, Li Lei, Xie Min, Hu Ke",
-      "doi": "10.1080/0907676x.2026.2691889",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2691889",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-23",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2684381",
-      "title": "Special Issue: Food and translation: international and interdisciplinary issues",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-08-17T00:00:00.000Z",
-      "pubDateStr": "2026-08-17",
-      "authors": "Li Saihong, Fuentes-Luque Adrián, Desjardins Renée",
-      "doi": "10.1080/0907676x.2026.2684381",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2684381",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 34(4), pp. 655-660",
       "source": "crossref"
     },
     {
