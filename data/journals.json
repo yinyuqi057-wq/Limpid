@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T11:29:19.397+08:00",
-  "generated_ts": 1788924559397,
+  "generated_at": "2026-09-10T00:02:57.070+08:00",
+  "generated_ts": 1788969777070,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,24 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2724247",
+      "title": "Translation pace and the temporal dynamics of transnational publishing the case of Nordic Noir",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-09-08T00:00:00.000Z",
+      "pubDateStr": "2026-09-08",
+      "authors": "Berglund Karl, Gulddal Jesper, King Stewart",
+      "doi": "10.1080/0907676x.2026.2724247",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2724247",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-20",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2724254",
       "title": "Shaping the register in crowdsourced crisis translation: an actor-network approach",
@@ -488,24 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-21",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2684285",
-      "title": "Technology-driven changes in the UK legal translation market: a practice-based study of NMT and its impact on freelance translators’ workflow",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-07-06T00:00:00.000Z",
-      "pubDateStr": "2026-07-06",
-      "authors": "Góngora-Goloubintseff José Gustavo",
-      "doi": "10.1080/0907676x.2026.2684285",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2684285",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-18",
       "source": "crossref"
     },
     {
