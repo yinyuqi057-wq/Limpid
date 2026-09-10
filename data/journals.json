@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-10T11:27:20.562+08:00",
-  "generated_ts": 1789010840562,
+  "generated_at": "2026-09-10T23:56:56.836+08:00",
+  "generated_ts": 1789055816836,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -2759,6 +2759,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/target.25098.xue",
+      "title": "Translating children’s literature for death education",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-09-10T00:00:00.000Z",
+      "pubDateStr": "2026-09-10",
+      "authors": "Chen Xuemei",
+      "doi": "10.1075/target.25098.xue",
+      "articleUrl": "https://doi.org/10.1075/target.25098.xue",
+      "keywords": [],
+      "abstract": "Abstract Despite the significance of death as a theme in children’s literature, few studies examine how it is translated across cultures. Drawing on death education and censorship studies, this article analyzes the English translation of Chen Jiatong’s White Fox series, a Chinese anthropomorphic adventure story. Through comparative textual analysis and interviews with the translator, this study reveals that the translations omit or soften violent death, as a result of censorship from the transla",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/target.00037.pen",
       "title": "Love’s labour’s found?",
       "journal": "Target. International Journal of Translation Studies",
@@ -3188,24 +3206,6 @@
       "keywords": [],
       "abstract": "Abstract How does the variability of the language system affect translational language use? Despite inconclusive results of earlier corpus studies, machine learning approaches reach high accuracies in distinguishing translated from non-translated texts. Translations must therefore involve linguistic patterns easy to spot by computers, but harder to spot by the human analyst. Consequently, the differences have been characterized as small, but systematic. This article adopts a quantitative corpus-",
       "volumeStr": "Vol. 38(1), pp. 114-142",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/target.23041.chi",
-      "title": "Translation as foreclosure",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2025-10-09T00:00:00.000Z",
-      "pubDateStr": "2025-10-09",
-      "authors": "Chittiphalangsri Phrae",
-      "doi": "10.1075/target.23041.chi",
-      "articleUrl": "https://doi.org/10.1075/target.23041.chi",
-      "keywords": [],
-      "abstract": "Abstract Negation is an enigmatic function of translation that has rarely been investigated. Instead of delivering the original text to the new language, translation also negates the incompatible in order to assert the validity of a target text by preventing access to the original. This form of negation is scrutinised in this article as an act of ‘foreclosure’, a term originated by Jacques Lacan and later adopted by Gayatri Chakravarty Spivak to describe the disappearance of the ‘native informan",
-      "volumeStr": "Vol. 38(1), pp. 1-23",
       "source": "crossref"
     },
     {
