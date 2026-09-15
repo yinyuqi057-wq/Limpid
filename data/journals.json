@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T11:45:53.537+08:00",
-  "generated_ts": 1789443953537,
+  "generated_at": "2026-09-16T00:26:26.109+08:00",
+  "generated_ts": 1789489586109,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,24 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2724246",
+      "title": "Market concentration and professional practice in the language services industry: a quantitative analysis",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-09-15T00:00:00.000Z",
+      "pubDateStr": "2026-09-15",
+      "authors": "Iglesias Lara Adriana María, Corpas Pastor Gloria",
+      "doi": "10.1080/0907676x.2026.2724246",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2724246",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-27",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2724247",
       "title": "Translation pace and the temporal dynamics of transnational publishing: the case of Nordic Noir",
@@ -488,24 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-22",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2687796",
-      "title": "A corpus-based approach to human and machine translation: a multidimensional analysis of judgments of the Court of Justice of the European Union",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-07-08T00:00:00.000Z",
-      "pubDateStr": "2026-07-08",
-      "authors": "Sánchez Ramos María Del Mar, Shakir Muhammad",
-      "doi": "10.1080/0907676x.2026.2687796",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2687796",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-21",
       "source": "crossref"
     },
     {
