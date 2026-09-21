@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T11:43:59.833+08:00",
-  "generated_ts": 1789962239833,
+  "generated_at": "2026-09-22T01:56:58.564+08:00",
+  "generated_ts": 1790013418564,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -2759,6 +2759,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/target.24177.chw",
+      "title": "Gestural style of the interpreter impacts performance appraisal in public service settings",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-09-21T00:00:00.000Z",
+      "pubDateStr": "2026-09-21",
+      "authors": "Chwalczuk Monika, García-Beyaert Sofía, Balas Robert",
+      "doi": "10.1075/target.24177.chw",
+      "articleUrl": "https://doi.org/10.1075/target.24177.chw",
+      "keywords": [],
+      "abstract": "Abstract Public service interpreting can involve high-stakes situations in which multimodal information is key. Interpreters often mimic speakers’ gestures, which is paradoxically associated both with lack of professionalism and with fostering social harmony. This study investigates whether an interpreter’s gestural style affects users’ perceptions of professionalism, trustworthiness, and skill. Fifty-seven experiment participants watched two twelve-minute videos of a simulated English–Turkish p",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/target.00039.pic",
       "title": "The labour of academic translation",
       "journal": "Target. International Journal of Translation Studies",
@@ -3188,24 +3206,6 @@
       "keywords": [],
       "abstract": "Abstract This article argues that translation inevitably reaches beyond its immediate sociohistorical context by deviating from contemporaneous norms. These deviations may signal and respond to future norms. Spectrality, a theory of time progression and the historical future proposed by Jacques Derrida in 1993, refutes the triumphant, teleological vision of liberal democracy after the collapse of the USSR and suggests that alternative futures already exist. Spectrality theory has gained renewed ",
       "volumeStr": "Vol. 38(2), pp. 200-233",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/target.25126.hay",
-      "title": "Review of Boulogne, de Lang & Verheyden (2024): Retranslating the Bible and the Qur’an: Historical Approaches and Current Debates",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2025-11-14T00:00:00.000Z",
-      "pubDateStr": "2025-11-14",
-      "authors": "Hayes David",
-      "doi": "10.1075/target.25126.hay",
-      "articleUrl": "https://doi.org/10.1075/target.25126.hay",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 38(1), pp. 143-148",
       "source": "crossref"
     },
     {
