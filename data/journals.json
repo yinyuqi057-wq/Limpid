@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T00:38:52.583+08:00",
-  "generated_ts": 1790267932583,
+  "generated_at": "2026-09-25T11:48:47.309+08:00",
+  "generated_ts": 1790308127309,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -2759,6 +2759,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/target.25058.del",
+      "title": "The right to translation in Belgian criminal proceedings",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-09-24T00:00:00.000Z",
+      "pubDateStr": "2026-09-24",
+      "authors": "Delva Sara, van Hoof Sarah, Maryns Katrijn",
+      "doi": "10.1075/target.25058.del",
+      "articleUrl": "https://doi.org/10.1075/target.25058.del",
+      "keywords": [],
+      "abstract": "Abstract This article examines the implementation of the Directive 2010/64/EU, and more specifically its provisions on written language assistance, in Belgian criminal proceedings. In order to investigate both top-down regulations and on-the-ground practices, a case study was conducted at the Ghent correctional court, including a policy review, analysis of criminal case files, and interviews with judicial actors. The study finds that the right to written translation is rarely exercised. Due to t",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/target.24177.chw",
       "title": "Gestural style of the interpreter impacts performance appraisal in public service settings",
       "journal": "Target. International Journal of Translation Studies",
@@ -3188,24 +3206,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "Vol. 38(1), pp. 155-161",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/target.24017.bai",
-      "title": "Deviations as precursors",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2025-11-17T00:00:00.000Z",
-      "pubDateStr": "2025-11-17",
-      "authors": "Bai Ziling",
-      "doi": "10.1075/target.24017.bai",
-      "articleUrl": "https://doi.org/10.1075/target.24017.bai",
-      "keywords": [],
-      "abstract": "Abstract This article argues that translation inevitably reaches beyond its immediate sociohistorical context by deviating from contemporaneous norms. These deviations may signal and respond to future norms. Spectrality, a theory of time progression and the historical future proposed by Jacques Derrida in 1993, refutes the triumphant, teleological vision of liberal democracy after the collapse of the USSR and suggests that alternative futures already exist. Spectrality theory has gained renewed ",
-      "volumeStr": "Vol. 38(2), pp. 200-233",
       "source": "crossref"
     },
     {
