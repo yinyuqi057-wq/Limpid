@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T12:38:55.538+08:00",
-  "generated_ts": 1790656735538,
+  "generated_at": "2026-09-30T01:46:41.011+08:00",
+  "generated_ts": 1790704001011,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -959,6 +959,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1080/13556509.2026.2732912",
+      "title": "Translational mediation in children’s museum learning leaflets: an Arabic–English study at the Louvre Abu Dhabi",
+      "journal": "The Translator",
+      "journalId": "translator",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rtrn20",
+      "pubDate": "2026-09-29T00:00:00.000Z",
+      "pubDateStr": "2026-09-29",
+      "authors": "Al Sawi Islam",
+      "doi": "10.1080/13556509.2026.2732912",
+      "articleUrl": "https://doi.org/10.1080/13556509.2026.2732912",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-19",
+      "source": "crossref"
+    },
+    {
       "id": "10.1080/13556509.2026.2708631",
       "title": "Translation as Mission vs. livelihood: Robert Morrison and the politics of bilingual mediation in Qing China",
       "journal": "The Translator",
@@ -1388,24 +1406,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "Vol. 31(3), pp. 323-327",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/13556509.2025.2510743",
-      "title": "Fansubbers as cultural mediators: a case study of the use of screen notes in the Chinese fansubs of the Spanish series El Ministerio del Tiempo",
-      "journal": "The Translator",
-      "journalId": "translator",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rtrn20",
-      "pubDate": "2025-05-30T00:00:00.000Z",
-      "pubDateStr": "2025-05-30",
-      "authors": "He Siyu, Mangiron Carme",
-      "doi": "10.1080/13556509.2025.2510743",
-      "articleUrl": "https://doi.org/10.1080/13556509.2025.2510743",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 31(4), pp. 357-376",
       "source": "crossref"
     },
     {
@@ -1859,6 +1859,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/babel.26218.che",
+      "title": "Review of Yang (2024):",
+      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
+      "journalId": "babel",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/babel",
+      "pubDate": "2026-09-29T00:00:00.000Z",
+      "pubDateStr": "2026-09-29",
+      "authors": "Cheang Kai Hang",
+      "doi": "10.1075/babel.26218.che",
+      "articleUrl": "https://doi.org/10.1075/babel.26218.che",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/babel.26093.dul",
       "title": "Servile self-translation for Nazi Germany",
       "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
@@ -2288,24 +2306,6 @@
       "keywords": [],
       "abstract": "Abstract To date, translation policies in the municipal sector have garnered limited interest. This is particularly true in Canada, where only a handful of studies have been conducted on the subject. Yet cities play a key role in welcoming international newcomers and facilitating their inclusion. To this end, many of them have implemented language policies, notably over the past five years, that prioritize the translation of public-facing municipal resources and the access to translation service",
       "volumeStr": "Vol. 72(4), pp. 523-548",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/babel.25138.yeu",
-      "title": "The Cantonese translations of foreign plays in the 1980s Hong Kong",
-      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
-      "journalId": "babel",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/babel",
-      "pubDate": "2026-04-08T00:00:00.000Z",
-      "pubDateStr": "2026-04-08",
-      "authors": "Yeung Sabrina Choi-kit",
-      "doi": "10.1075/babel.25138.yeu",
-      "articleUrl": "https://doi.org/10.1075/babel.25138.yeu",
-      "keywords": [],
-      "abstract": "Abstract Before the 1980s, the vast majority of foreign plays in Hong Kong were translated into modern vernacular Chinese, which functioned as the dominant written language for most of the population. Since then, however, a small number of translators began experimenting with Cantonese — the primary spoken language of Hong Kong people — as the medium of translation, notably Jane Lai. By the late 1970s, Lai started using Cantonese as the target language for certain translations. In the mid-1980s,",
-      "volumeStr": "Vol. 72(4), pp. 549-574",
       "source": "crossref"
     },
     {
