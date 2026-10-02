@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T12:26:54.680+08:00",
-  "generated_ts": 1790915214680,
+  "generated_at": "2026-10-03T01:33:59.631+08:00",
+  "generated_ts": 1790962439631,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,24 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2734472",
+      "title": "Translation as cultural mediation in periodicals: Virginia Woolf’s essays in Figaro , 1929–1932",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-10-01T00:00:00.000Z",
+      "pubDateStr": "2026-10-01",
+      "authors": "Federici Annalisa",
+      "doi": "10.1080/0907676x.2026.2734472",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2734472",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-18",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2724246",
       "title": "Market concentration and professional practice in the language services industry: a quantitative analysis",
@@ -488,24 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-20",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2686722",
-      "title": "The impact of subtitle speed on viewers: a mixed-methods eye-tracking study on Chinese interlingual subtitling",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-07-08T00:00:00.000Z",
-      "pubDateStr": "2026-07-08",
-      "authors": "Jia Huihuang, Szarkowska Agnieszka, Díaz-Cintas Jorge",
-      "doi": "10.1080/0907676x.2026.2686722",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2686722",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-22",
       "source": "crossref"
     },
     {
