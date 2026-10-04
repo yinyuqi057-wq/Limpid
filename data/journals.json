@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04T12:41:18.270+08:00",
-  "generated_ts": 1791088878270,
+  "generated_at": "2026-10-05T00:32:44.724+08:00",
+  "generated_ts": 1791131564724,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -149,24 +149,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2733050",
-      "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-10-02T00:00:00.000Z",
-      "pubDateStr": "2026-10-02",
-      "authors": "Paloposki Outi",
-      "doi": "10.1080/0907676x.2026.2733050",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2733050",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2734470",
       "title": "Cultural consolidation through translation: criticism of trivial literature and translations of literary criticism in the Slovene journal Ljubljanski Zvon (1900–1941)",
       "journal": "Perspectives",
@@ -182,6 +164,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-17",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2733050",
+      "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-10-02T00:00:00.000Z",
+      "pubDateStr": "2026-10-02",
+      "authors": "Paloposki Outi",
+      "doi": "10.1080/0907676x.2026.2733050",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2733050",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-18",
       "source": "crossref"
     },
     {
@@ -275,24 +275,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2711318",
-      "title": "Path-making translators and the spatial logic of literary circulation: Howard Goldblatt and Mo Yan’s U.S. trajectory",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-09-03T00:00:00.000Z",
-      "pubDateStr": "2026-09-03",
-      "authors": "Yang Jing",
-      "doi": "10.1080/0907676x.2026.2711318",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2711318",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-19",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2728407",
       "title": "Travelling East, a global journey of Translation Studies",
       "journal": "Perspectives",
@@ -308,6 +290,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "Vol. 34(5), pp. 849-862",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2711318",
+      "title": "Path-making translators and the spatial logic of literary circulation: Howard Goldblatt and Mo Yan’s U.S. trajectory",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-09-03T00:00:00.000Z",
+      "pubDateStr": "2026-09-03",
+      "authors": "Yang Jing",
+      "doi": "10.1080/0907676x.2026.2711318",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2711318",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-19",
       "source": "crossref"
     },
     {
