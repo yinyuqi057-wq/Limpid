@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T12:43:22.207+08:00",
-  "generated_ts": 1791348202207,
+  "generated_at": "2026-10-08T02:32:51.590+08:00",
+  "generated_ts": 1791397971590,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -275,24 +275,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2711318",
-      "title": "Path-making translators and the spatial logic of literary circulation: Howard Goldblatt and Mo Yan’s U.S. trajectory",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-09-03T00:00:00.000Z",
-      "pubDateStr": "2026-09-03",
-      "authors": "Yang Jing",
-      "doi": "10.1080/0907676x.2026.2711318",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2711318",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-19",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2728407",
       "title": "Travelling East, a global journey of Translation Studies",
       "journal": "Perspectives",
@@ -308,6 +290,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "Vol. 34(5), pp. 849-862",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2711318",
+      "title": "Path-making translators and the spatial logic of literary circulation: Howard Goldblatt and Mo Yan’s U.S. trajectory",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-09-03T00:00:00.000Z",
+      "pubDateStr": "2026-09-03",
+      "authors": "Yang Jing",
+      "doi": "10.1080/0907676x.2026.2711318",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2711318",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-19",
       "source": "crossref"
     },
     {
