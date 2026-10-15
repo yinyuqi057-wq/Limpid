@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T11:32:36.135+08:00",
-  "generated_ts": 1792035156135,
+  "generated_at": "2026-10-16T00:27:09.592+08:00",
+  "generated_ts": 1792081629592,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -221,24 +221,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2734470",
-      "title": "Cultural consolidation through translation: criticism of trivial literature and translations of literary criticism in the Slovene journal Ljubljanski Zvon (1900–1941)",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-10-02T00:00:00.000Z",
-      "pubDateStr": "2026-10-02",
-      "authors": "Pokorn Nike K.",
-      "doi": "10.1080/0907676x.2026.2734470",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2734470",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-17",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2733050",
       "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
       "journal": "Perspectives",
@@ -254,6 +236,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-18",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2734470",
+      "title": "Cultural consolidation through translation: criticism of trivial literature and translations of literary criticism in the Slovene journal Ljubljanski Zvon (1900–1941)",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-10-02T00:00:00.000Z",
+      "pubDateStr": "2026-10-02",
+      "authors": "Pokorn Nike K.",
+      "doi": "10.1080/0907676x.2026.2734470",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2734470",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-17",
       "source": "crossref"
     },
     {
@@ -347,24 +347,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2728407",
-      "title": "Travelling East, a global journey of Translation Studies",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-09-25T00:00:00.000Z",
-      "pubDateStr": "2026-09-25",
-      "authors": "Valdeón García Roberto A.",
-      "doi": "10.1080/0907676x.2026.2728407",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2728407",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 34(5), pp. 849-862",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2711318",
       "title": "Path-making translators and the spatial logic of literary circulation: Howard Goldblatt and Mo Yan’s U.S. trajectory",
       "journal": "Perspectives",
@@ -380,6 +362,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-19",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2728407",
+      "title": "Travelling East, a global journey of Translation Studies",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-09-25T00:00:00.000Z",
+      "pubDateStr": "2026-09-25",
+      "authors": "Valdeón García Roberto A.",
+      "doi": "10.1080/0907676x.2026.2728407",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2728407",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "Vol. 34(5), pp. 849-862",
       "source": "crossref"
     },
     {
@@ -3241,7 +3241,7 @@
       "articleUrl": "https://doi.org/10.1075/tis.25123.ris",
       "keywords": [],
       "abstract": "Abstract Research on expertise in translation studies has largely focused on the skills and performance of individual translators. However, a growing body of research demonstrates that translation practices are collaborative and embedded in complex socio-material environments. In this article, we outline how expertise research in translation studies can be enriched by adopting perspectives from socio-cognitive approaches and from research on distributed, team, and organizational expertise in oth",
-      "volumeStr": "",
+      "volumeStr": "Vol. 21(1), pp. 1-34",
       "source": "crossref"
     },
     {
@@ -3259,7 +3259,7 @@
       "articleUrl": "https://doi.org/10.1075/tis.24041.rez",
       "keywords": [],
       "abstract": "Abstract This study addresses the intricate challenges of translating modern Arabic poetry into English through the analysis of the translation of three selected poems by the renowned Egyptian poet Farouk Goweda. These poems, reflecting Goweda’s sociopolitical engagement with the cultural background of the Middle East, contain cultural specificities and stylistic features that pose difficulties for translators on various levels, semantic, syntactical, idiomatic and sonic. This study explores how",
-      "volumeStr": "",
+      "volumeStr": "Vol. 21(1), pp. 83-110",
       "source": "crossref"
     },
     {
@@ -3277,7 +3277,7 @@
       "articleUrl": "https://doi.org/10.1075/tis.25043.hof",
       "keywords": [],
       "abstract": "Abstract Knowledge transfer in the Soviet Union is commonly seen as taking place under the absolute dominance of Russian. Omnipresent as the only Union-wide scientific language, Russian did indeed occupy an extremely influential position as a relay language for knowledge transfer within the Soviet Union, from the Socialist Camp as well as from so-called capitalist languages. Nevertheless, there are activities that suggest a more complex system of different source and target languages and corresp",
-      "volumeStr": "",
+      "volumeStr": "Vol. 21(1), pp. 35-61",
       "source": "crossref"
     },
     {
@@ -3295,7 +3295,7 @@
       "articleUrl": "https://doi.org/10.1075/tis.00067.kla",
       "keywords": [],
       "abstract": "",
-      "volumeStr": "",
+      "volumeStr": "Vol. 21(1), pp. 120-127",
       "source": "crossref"
     },
     {
@@ -3313,7 +3313,7 @@
       "articleUrl": "https://doi.org/10.1075/tis.25014.man",
       "keywords": [],
       "abstract": "Abstract Machine translation (MT) users generally express a willingness to continue using MT systems, despite their often-negative perceptions of MT output quality. Informed by an extended Technology Acceptance Model, this questionnaire-based study of trainee translators ( N = 273) investigates this phenomenon by assessing the predictive effects of users’ perceptions on their intention to continue using MT systems. Perception of MT output quality was found to have no significant direct effect on",
-      "volumeStr": "",
+      "volumeStr": "Vol. 21(1), pp. 62-82",
       "source": "crossref"
     },
     {
@@ -3331,7 +3331,7 @@
       "articleUrl": "https://doi.org/10.1075/tis.00066.foo",
       "keywords": [],
       "abstract": "",
-      "volumeStr": "",
+      "volumeStr": "Vol. 21(1), pp. 111-119",
       "source": "crossref"
     },
     {
