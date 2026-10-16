@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T11:28:31.119+08:00",
-  "generated_ts": 1792121311119,
+  "generated_at": "2026-10-17T00:12:24.814+08:00",
+  "generated_ts": 1792167144814,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,24 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2734479",
+      "title": "Genre-specific cognitive processing in translation and paraphrasing: evidence from eye-tracking",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-10-15T00:00:00.000Z",
+      "pubDateStr": "2026-10-15",
+      "authors": "Han Tianyi, Zhang Hengtian, Li Dechao, Ma Xingcheng",
+      "doi": "10.1080/0907676x.2026.2734479",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2734479",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-24",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2734474",
       "title": "Translation in Polish interwar periodicals: Wiadomości Literackie [Literary News] and Robotnik [The Labourer]",
@@ -221,24 +239,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2734470",
-      "title": "Cultural consolidation through translation: criticism of trivial literature and translations of literary criticism in the Slovene journal Ljubljanski Zvon (1900–1941)",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-10-02T00:00:00.000Z",
-      "pubDateStr": "2026-10-02",
-      "authors": "Pokorn Nike K.",
-      "doi": "10.1080/0907676x.2026.2734470",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2734470",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-17",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2733050",
       "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
       "journal": "Perspectives",
@@ -254,6 +254,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-18",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2734470",
+      "title": "Cultural consolidation through translation: criticism of trivial literature and translations of literary criticism in the Slovene journal Ljubljanski Zvon (1900–1941)",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-10-02T00:00:00.000Z",
+      "pubDateStr": "2026-10-02",
+      "authors": "Pokorn Nike K.",
+      "doi": "10.1080/0907676x.2026.2734470",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2734470",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-17",
       "source": "crossref"
     },
     {
@@ -347,24 +365,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2711318",
-      "title": "Path-making translators and the spatial logic of literary circulation: Howard Goldblatt and Mo Yan’s U.S. trajectory",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-09-03T00:00:00.000Z",
-      "pubDateStr": "2026-09-03",
-      "authors": "Yang Jing",
-      "doi": "10.1080/0907676x.2026.2711318",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2711318",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-19",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2728407",
       "title": "Travelling East, a global journey of Translation Studies",
       "journal": "Perspectives",
@@ -380,6 +380,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "Vol. 34(5), pp. 849-862",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2711318",
+      "title": "Path-making translators and the spatial logic of literary circulation: Howard Goldblatt and Mo Yan’s U.S. trajectory",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-09-03T00:00:00.000Z",
+      "pubDateStr": "2026-09-03",
+      "authors": "Yang Jing",
+      "doi": "10.1080/0907676x.2026.2711318",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2711318",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-19",
       "source": "crossref"
     },
     {
@@ -488,24 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-20",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2698010",
-      "title": "Metaphor as ideological gatekeeping: translating sovereignty in English–Spanish news coverage of the Gibraltar dispute",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-07-30T00:00:00.000Z",
-      "pubDateStr": "2026-07-30",
-      "authors": "Muñoz-Basols Javier, Cabeza-Campillo Daniel",
-      "doi": "10.1080/0907676x.2026.2698010",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2698010",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-21",
       "source": "crossref"
     },
     {
@@ -2759,6 +2759,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/target.00040.aya",
+      "title": "Aesthetic labor",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-10-16T00:00:00.000Z",
+      "pubDateStr": "2026-10-16",
+      "authors": "Ayan Irem",
+      "doi": "10.1075/target.00040.aya",
+      "articleUrl": "https://doi.org/10.1075/target.00040.aya",
+      "keywords": [],
+      "abstract": "Abstract Relying on two series of interviews with interpreters from various sociocultural backgrounds working in a variety of contexts, including conference and community settings in the US, Belgium, Turkey, Germany, and Canada, this article explores how objectification of the body and interpreting intersect. Drawing on the concept of ‘aesthetic labor’, it examines the lived experiences of female interpreters in terms of appearance requirements imposed on them and argues that the rules and expec",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/target.25058.del",
       "title": "The right to translation in Belgian criminal proceedings",
       "journal": "Target. International Journal of Translation Studies",
@@ -3188,24 +3206,6 @@
       "keywords": [],
       "abstract": "Abstract This article examines the 1905 Chinese translation of The Swiss Family Robinson through an ecocritical lens and explores how ecological themes are adapted and reinterpreted within a non-Western cultural context. The study draws on traditional Chinese literary and philosophical concepts such as 山水 shanshui ‘mountain and water’, 风景 fengjing ‘wind-light’, and 无为 wuwei ‘non-action’ to expound the relationship between humans and nature in translation. By comparing the translation with the or",
       "volumeStr": "Vol. 38(2), pp. 234-259",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/target.25112.hua",
-      "title": "Review of Bassnett & Johnston (2025): Debates in Translation Studies",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2025-11-20T00:00:00.000Z",
-      "pubDateStr": "2025-11-20",
-      "authors": "Huang Yan",
-      "doi": "10.1075/target.25112.hua",
-      "articleUrl": "https://doi.org/10.1075/target.25112.hua",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 38(1), pp. 155-161",
       "source": "crossref"
     },
     {
