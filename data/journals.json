@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T00:12:24.814+08:00",
-  "generated_ts": 1792167144814,
+  "generated_at": "2026-10-17T11:19:18.964+08:00",
+  "generated_ts": 1792207158964,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -239,24 +239,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2733050",
-      "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-10-02T00:00:00.000Z",
-      "pubDateStr": "2026-10-02",
-      "authors": "Paloposki Outi",
-      "doi": "10.1080/0907676x.2026.2733050",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2733050",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2734470",
       "title": "Cultural consolidation through translation: criticism of trivial literature and translations of literary criticism in the Slovene journal Ljubljanski Zvon (1900–1941)",
       "journal": "Perspectives",
@@ -272,6 +254,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-17",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2733050",
+      "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-10-02T00:00:00.000Z",
+      "pubDateStr": "2026-10-02",
+      "authors": "Paloposki Outi",
+      "doi": "10.1080/0907676x.2026.2733050",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2733050",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-18",
       "source": "crossref"
     },
     {
