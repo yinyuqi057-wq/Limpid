@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T11:36:46.645+08:00",
-  "generated_ts": 1792640206645,
+  "generated_at": "2026-10-23T00:45:11.020+08:00",
+  "generated_ts": 1792687511020,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,42 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2734496",
+      "title": "Middlebrowing Lu Xun: para-literary translation and the making of the Hindi magazine Sārikā",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-10-21T00:00:00.000Z",
+      "pubDateStr": "2026-10-21",
+      "authors": "Jia Yan",
+      "doi": "10.1080/0907676x.2026.2734496",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2734496",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-18",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2747987",
+      "title": "Artificial intelligence-based translation in clinical medicine: a multimodal corpus-based approach",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-10-21T00:00:00.000Z",
+      "pubDateStr": "2026-10-21",
+      "authors": "Chen Ying, Zhang Xinli",
+      "doi": "10.1080/0907676x.2026.2747987",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2747987",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-21",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2741226",
       "title": "Paralinguistic demands in interpreter-mediated Mental Health Act assessments: perspectives from mental health professionals, interpreters and service users",
@@ -470,42 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "Vol. 34(5), pp. 849-862",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2708899",
-      "title": "ASR-based input and cognitive load in simultaneous interpreting: a triangulation of performance, eye-tracking, and self-reported data",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-09-02T00:00:00.000Z",
-      "pubDateStr": "2026-09-02",
-      "authors": "Rozkrut Paulina, Chmiel Agnieszka",
-      "doi": "10.1080/0907676x.2026.2708899",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2708899",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-22",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2703171",
-      "title": "To swear or not to swear: a quantitative study of swearword translation in Dave Chappelle’s stand-up comedy",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-08-28T00:00:00.000Z",
-      "pubDateStr": "2026-08-28",
-      "authors": "Mou Yifei, Xu Han",
-      "doi": "10.1080/0907676x.2026.2703171",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2703171",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-23",
       "source": "crossref"
     },
     {
