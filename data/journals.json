@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T11:33:04.817+08:00",
-  "generated_ts": 1792899184817,
+  "generated_at": "2026-10-25T23:40:26.409+08:00",
+  "generated_ts": 1792942826409,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -347,24 +347,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2734470",
-      "title": "Cultural consolidation through translation: criticism of trivial literature and translations of literary criticism in the Slovene journal Ljubljanski Zvon (1900–1941)",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-10-02T00:00:00.000Z",
-      "pubDateStr": "2026-10-02",
-      "authors": "Pokorn Nike K.",
-      "doi": "10.1080/0907676x.2026.2734470",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2734470",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-17",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2733050",
       "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
       "journal": "Perspectives",
@@ -380,6 +362,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-18",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2734470",
+      "title": "Cultural consolidation through translation: criticism of trivial literature and translations of literary criticism in the Slovene journal Ljubljanski Zvon (1900–1941)",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-10-02T00:00:00.000Z",
+      "pubDateStr": "2026-10-02",
+      "authors": "Pokorn Nike K.",
+      "doi": "10.1080/0907676x.2026.2734470",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2734470",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-17",
       "source": "crossref"
     },
     {
@@ -473,24 +473,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2728407",
-      "title": "Travelling East, a global journey of Translation Studies",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-09-25T00:00:00.000Z",
-      "pubDateStr": "2026-09-25",
-      "authors": "Valdeón García Roberto A.",
-      "doi": "10.1080/0907676x.2026.2728407",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2728407",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 34(5), pp. 849-862",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2711318",
       "title": "Path-making translators and the spatial logic of literary circulation: Howard Goldblatt and Mo Yan’s U.S. trajectory",
       "journal": "Perspectives",
@@ -506,6 +488,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-19",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2728407",
+      "title": "Travelling East, a global journey of Translation Studies",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-09-25T00:00:00.000Z",
+      "pubDateStr": "2026-09-25",
+      "authors": "Valdeón García Roberto A.",
+      "doi": "10.1080/0907676x.2026.2728407",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2728407",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "Vol. 34(5), pp. 849-862",
       "source": "crossref"
     },
     {
