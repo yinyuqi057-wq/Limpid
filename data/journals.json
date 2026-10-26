@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T23:40:26.409+08:00",
-  "generated_ts": 1792942826409,
+  "generated_at": "2026-10-26T11:35:43.335+08:00",
+  "generated_ts": 1792985743335,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -347,24 +347,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2733050",
-      "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-10-02T00:00:00.000Z",
-      "pubDateStr": "2026-10-02",
-      "authors": "Paloposki Outi",
-      "doi": "10.1080/0907676x.2026.2733050",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2733050",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2734470",
       "title": "Cultural consolidation through translation: criticism of trivial literature and translations of literary criticism in the Slovene journal Ljubljanski Zvon (1900–1941)",
       "journal": "Perspectives",
@@ -380,6 +362,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-17",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2733050",
+      "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-10-02T00:00:00.000Z",
+      "pubDateStr": "2026-10-02",
+      "authors": "Paloposki Outi",
+      "doi": "10.1080/0907676x.2026.2733050",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2733050",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-18",
       "source": "crossref"
     },
     {
@@ -3209,6 +3209,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/tis.00068.tan",
+      "title": "How creative can translation be(come)?",
+      "journal": "Translation and Interpreting Studies",
+      "journalId": "tis",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/tis",
+      "pubDate": "2026-10-25T00:00:00.000Z",
+      "pubDateStr": "2026-10-25",
+      "authors": "Tanasescu Raluca",
+      "doi": "10.1075/tis.00068.tan",
+      "articleUrl": "https://doi.org/10.1075/tis.00068.tan",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/tis.25089.bae",
       "title": "A star (translator) is born",
       "journal": "Translation and Interpreting Studies",
@@ -3638,24 +3656,6 @@
       "keywords": [],
       "abstract": "Abstract The notion of an invisible interpreter in medical interpreting can conflict with the goals of the Speech-Language Pathologist (SLP) during aphasia assessment. This study trained interpreters at an urban rehabilitation hospital in the U.S. regarding the purpose of aphasia assessments, examined how their role changed to become more visible, and evaluated the preliminary impact of the training. Eight interpreters participated in two SLP aphasia assessments for native Spanish speakers with ",
       "volumeStr": "Vol. 20(1), pp. 78-104",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/tis.22016.wan",
-      "title": "Translation as resistance",
-      "journal": "Translation and Interpreting Studies",
-      "journalId": "tis",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/tis",
-      "pubDate": "2025-06-03T00:00:00.000Z",
-      "pubDateStr": "2025-06-03",
-      "authors": "Wang Yunhong, Wang Binhua",
-      "doi": "10.1075/tis.22016.wan",
-      "articleUrl": "https://doi.org/10.1075/tis.22016.wan",
-      "keywords": [],
-      "abstract": "Abstract The COVID-19 pandemic saw a sharp rise in social media communication trafficking in divisive stereotypes. The article traces and analyzes the translingual and cross-cultural dialogues around the racist term “Chinese virus” on Twitter and its Chinese counterpart, Weibo. For that purpose, a corpus of online translated texts related to the dissemination and reception of “Chinese virus” was constructed. Analysis found that the strategies of transliteration, literal translation, hybrid trans",
-      "volumeStr": "Vol. 20(1), pp. 129-148",
       "source": "crossref"
     }
   ]
