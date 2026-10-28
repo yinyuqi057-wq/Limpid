@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T01:35:28.860+08:00",
-  "generated_ts": 1793122528860,
+  "generated_at": "2026-10-28T12:24:56.366+08:00",
+  "generated_ts": 1793161496366,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -473,24 +473,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2728407",
-      "title": "Travelling East, a global journey of Translation Studies",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-09-25T00:00:00.000Z",
-      "pubDateStr": "2026-09-25",
-      "authors": "Valdeón García Roberto A.",
-      "doi": "10.1080/0907676x.2026.2728407",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2728407",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 34(5), pp. 849-862",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2711318",
       "title": "Path-making translators and the spatial logic of literary circulation: Howard Goldblatt and Mo Yan’s U.S. trajectory",
       "journal": "Perspectives",
@@ -506,6 +488,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-19",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2728407",
+      "title": "Travelling East, a global journey of Translation Studies",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-09-25T00:00:00.000Z",
+      "pubDateStr": "2026-09-25",
+      "authors": "Valdeón García Roberto A.",
+      "doi": "10.1080/0907676x.2026.2728407",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2728407",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "Vol. 34(5), pp. 849-862",
       "source": "crossref"
     },
     {
@@ -1877,6 +1877,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/babel.00416.leb",
+      "title": "Le bien-être des traducteurs, interprètes et terminologues professionnels",
+      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
+      "journalId": "babel",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/babel",
+      "pubDate": "2026-10-27T00:00:00.000Z",
+      "pubDateStr": "2026-10-27",
+      "authors": "Author info unavailable",
+      "doi": "10.1075/babel.00416.leb",
+      "articleUrl": "https://doi.org/10.1075/babel.00416.leb",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/babel.00414.the",
       "title": "The wellbeing of professional translators, interpreters and terminologists",
       "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
@@ -2288,24 +2306,6 @@
       "keywords": [],
       "abstract": "Abstract This study examines explicature construction in the English translation of the Qur’an, focusing on parenthetical insertions in the Hilali-Khan version. These additions make implicit meanings explicit, guiding readers through culturally and theologically dense material. Applying Huang’s (2014) framework, the analysis categorizes these insertions into five types: disambiguation, reference resolution, saturation, free enrichment, and ad hoc concept construction. Each type reflects a specif",
       "volumeStr": "Vol. 72(4), pp. 497-522",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/babel.25269.als",
-      "title": "Translating Arabians in early twentieth century European travel writing",
-      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
-      "journalId": "babel",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/babel",
-      "pubDate": "2026-04-17T00:00:00.000Z",
-      "pubDateStr": "2026-04-17",
-      "authors": "AlShehri Fadiah",
-      "doi": "10.1075/babel.25269.als",
-      "articleUrl": "https://doi.org/10.1075/babel.25269.als",
-      "keywords": [],
-      "abstract": "Abstract Drawing on an interdisciplinary approach borrowed from translation, cultural writing, and travel writing studies, this research has investigated semantic shifts in Yousef Noor Awad’s Arabic translation (1991) of The Lord of Arabia: Ibn Saud: An Intimate Study of a King , a British travel account by Harold Courtenay Armstrong (1934) . Situating the two texts within a cultural and historical “continuum” ( Bassnett and Trivedy 1999 , 2), the study has explored how Armstrong’s English trave",
-      "volumeStr": "Vol. 72(4), pp. 471-496",
       "source": "crossref"
     },
     {
