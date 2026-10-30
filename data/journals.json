@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T12:42:47.778+08:00",
-  "generated_ts": 1793335367778,
+  "generated_at": "2026-10-31T01:47:27.188+08:00",
+  "generated_ts": 1793382447188,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -347,24 +347,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2733050",
-      "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-10-02T00:00:00.000Z",
-      "pubDateStr": "2026-10-02",
-      "authors": "Paloposki Outi",
-      "doi": "10.1080/0907676x.2026.2733050",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2733050",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2734470",
       "title": "Cultural consolidation through translation: criticism of trivial literature and translations of literary criticism in the Slovene journal Ljubljanski Zvon (1900–1941)",
       "journal": "Perspectives",
@@ -380,6 +362,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-17",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2733050",
+      "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-10-02T00:00:00.000Z",
+      "pubDateStr": "2026-10-02",
+      "authors": "Paloposki Outi",
+      "doi": "10.1080/0907676x.2026.2733050",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2733050",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-18",
       "source": "crossref"
     },
     {
@@ -506,6 +506,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "Vol. 34(5), pp. 849-862",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/1750399x.2026.2754805",
+      "title": "Fostering interprofessional reasoning in interpreter education: an ACE-III-based pedagogical intervention",
+      "journal": "The Interpreter and Translator Trainer",
+      "journalId": "itt",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/ritt20",
+      "pubDate": "2026-10-30T00:00:00.000Z",
+      "pubDateStr": "2026-10-30",
+      "authors": "Rodriguez-Vicente Natalia",
+      "doi": "10.1080/1750399x.2026.2754805",
+      "articleUrl": "https://doi.org/10.1080/1750399x.2026.2754805",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-20",
       "source": "crossref"
     },
     {
@@ -938,24 +956,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-21",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/1750399x.2025.2611438",
-      "title": "PjBL in the translation classroom: a study of student perceptions",
-      "journal": "The Interpreter and Translator Trainer",
-      "journalId": "itt",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/ritt20",
-      "pubDate": "2026-01-02T00:00:00.000Z",
-      "pubDateStr": "2026-01-02",
-      "authors": "Salamah Dania Adel",
-      "doi": "10.1080/1750399x.2025.2611438",
-      "articleUrl": "https://doi.org/10.1080/1750399x.2025.2611438",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 20(3), pp. 330-355",
       "source": "crossref"
     },
     {
