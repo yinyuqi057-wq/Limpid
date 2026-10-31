@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T12:27:23.020+08:00",
-  "generated_ts": 1793420843020,
+  "generated_at": "2026-11-01T00:55:31.886+08:00",
+  "generated_ts": 1793465731886,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -473,24 +473,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2728407",
-      "title": "Travelling East, a global journey of Translation Studies",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-09-25T00:00:00.000Z",
-      "pubDateStr": "2026-09-25",
-      "authors": "Valdeón García Roberto A.",
-      "doi": "10.1080/0907676x.2026.2728407",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2728407",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 34(5), pp. 849-862",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2711318",
       "title": "Path-making translators and the spatial logic of literary circulation: Howard Goldblatt and Mo Yan’s U.S. trajectory",
       "journal": "Perspectives",
@@ -506,6 +488,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-19",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2728407",
+      "title": "Travelling East, a global journey of Translation Studies",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-09-25T00:00:00.000Z",
+      "pubDateStr": "2026-09-25",
+      "authors": "Valdeón García Roberto A.",
+      "doi": "10.1080/0907676x.2026.2728407",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2728407",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "Vol. 34(5), pp. 849-862",
       "source": "crossref"
     },
     {
