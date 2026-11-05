@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T13:29:55.775+08:00",
-  "generated_ts": 1793856595775,
+  "generated_at": "2026-11-06T03:36:52.578+08:00",
+  "generated_ts": 1793907412578,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -383,24 +383,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2734470",
-      "title": "Cultural consolidation through translation: criticism of trivial literature and translations of literary criticism in the Slovene journal Ljubljanski Zvon (1900–1941)",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-10-02T00:00:00.000Z",
-      "pubDateStr": "2026-10-02",
-      "authors": "Pokorn Nike K.",
-      "doi": "10.1080/0907676x.2026.2734470",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2734470",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-17",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2733050",
       "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
       "journal": "Perspectives",
@@ -416,6 +398,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-18",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2734470",
+      "title": "Cultural consolidation through translation: criticism of trivial literature and translations of literary criticism in the Slovene journal Ljubljanski Zvon (1900–1941)",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-10-02T00:00:00.000Z",
+      "pubDateStr": "2026-10-02",
+      "authors": "Pokorn Nike K.",
+      "doi": "10.1080/0907676x.2026.2734470",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2734470",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-17",
       "source": "crossref"
     },
     {
@@ -2759,6 +2759,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/target.25176.kum",
+      "title": "Disentangling cognitive and emotional load in interpreting",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-11-05T00:00:00.000Z",
+      "pubDateStr": "2026-11-05",
+      "authors": "Kumcu Alper, Duman Duygu",
+      "doi": "10.1075/target.25176.kum",
+      "articleUrl": "https://doi.org/10.1075/target.25176.kum",
+      "keywords": [],
+      "abstract": "Abstract This study employs a multimodal approach to investigate how emotional and cognitive load differentially impact interpreter stress. Twenty student interpreters consecutively interpreted four Turkish-to-English mental healthcare narratives of varying emotionality and difficulty, constructed using a 2×2 factorial design. Stress responses were measured using galvanic skin response (GSR), voice parameters (pitch and voice intensity), and self-report scales (PANAS, STAI, and NASA-TLX). Stimul",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/target.00040.aya",
       "title": "Aesthetic labor",
       "journal": "Target. International Journal of Translation Studies",
@@ -3188,24 +3206,6 @@
       "keywords": [],
       "abstract": "Abstract As concise self-contained units of meaning at the interface of artworks and their publics, artwork titles give important insights into what is at stake in mediation in transcultural settings, under particular contextual conditions: stable visual input with cross-over of languages and cultures, and thus activation of multiple frames of reference and expectations for audiences. They are revealing microcosms of morphosyntactic, lexical and pragmalinguistic triggers of spectatorial response",
       "volumeStr": "Vol. 38(2), pp. 163-199",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/target.25013.qi",
-      "title": "From wilderness to wonderland",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2026-01-13T00:00:00.000Z",
-      "pubDateStr": "2026-01-13",
-      "authors": "Qi Jinxin",
-      "doi": "10.1075/target.25013.qi",
-      "articleUrl": "https://doi.org/10.1075/target.25013.qi",
-      "keywords": [],
-      "abstract": "Abstract This article examines the 1905 Chinese translation of The Swiss Family Robinson through an ecocritical lens and explores how ecological themes are adapted and reinterpreted within a non-Western cultural context. The study draws on traditional Chinese literary and philosophical concepts such as 山水 shanshui ‘mountain and water’, 风景 fengjing ‘wind-light’, and 无为 wuwei ‘non-action’ to expound the relationship between humans and nature in translation. By comparing the translation with the or",
-      "volumeStr": "Vol. 38(2), pp. 234-259",
       "source": "crossref"
     },
     {
