@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T03:27:15.011+08:00",
-  "generated_ts": 1793820435011,
+  "generated_at": "2026-11-05T13:29:55.775+08:00",
+  "generated_ts": 1793856595775,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -509,6 +509,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1080/1750399x.2026.2755504",
+      "title": "InterpretAI: a GenAI-based tool for teaching material design in interpreter training",
+      "journal": "The Interpreter and Translator Trainer",
+      "journalId": "itt",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/ritt20",
+      "pubDate": "2026-11-04T00:00:00.000Z",
+      "pubDateStr": "2026-11-04",
+      "authors": "Ortiz-Garduño Helena, Jiménez-Castro María",
+      "doi": "10.1080/1750399x.2026.2755504",
+      "articleUrl": "https://doi.org/10.1080/1750399x.2026.2755504",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-20",
+      "source": "crossref"
+    },
+    {
       "id": "10.1080/1750399x.2026.2756507",
       "title": "Fair but impersonal: student responses to AI-led evaluation of reflective writing in translator and interpreter training",
       "journal": "The Interpreter and Translator Trainer",
@@ -938,24 +956,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/1750399x.2026.2630311",
-      "title": "Why foreign language proficiency still matters: multidimensional assessment of student translators’ performance in online translation tests",
-      "journal": "The Interpreter and Translator Trainer",
-      "journalId": "itt",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/ritt20",
-      "pubDate": "2026-02-14T00:00:00.000Z",
-      "pubDateStr": "2026-02-14",
-      "authors": "Zhou Xiangyan, Wang Xiangling, Chen Guangjiao",
-      "doi": "10.1080/1750399x.2026.2630311",
-      "articleUrl": "https://doi.org/10.1080/1750399x.2026.2630311",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-19",
       "source": "crossref"
     },
     {
