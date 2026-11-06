@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T13:28:28.048+08:00",
-  "generated_ts": 1793942908048,
+  "generated_at": "2026-11-07T02:58:19.189+08:00",
+  "generated_ts": 1793991499189,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -1877,6 +1877,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/babel.26025.ozc",
+      "title": "Rethinking method in idiom translation",
+      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
+      "journalId": "babel",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/babel",
+      "pubDate": "2026-11-06T00:00:00.000Z",
+      "pubDateStr": "2026-11-06",
+      "authors": "Özcan Muhammed",
+      "doi": "10.1075/babel.26025.ozc",
+      "articleUrl": "https://doi.org/10.1075/babel.26025.ozc",
+      "keywords": [],
+      "abstract": "Abstract This article explores the applicability of Mona Baker’s idiom translation strategies, especially those from her expanded 2018 taxonomy, in Turkish-Arabic literary translation. Through a qualitative analysis of twenty purposively selected culturally and stylistically marked idioms from Araba Sevdası and its Arabic translation Shaghaf al-ʿArabah , the study examines how semantic equivalence, stylistic fidelity, and cultural resonance are preserved. The findings reveal a dominant reliance ",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/babel.00415.elb",
       "title": "El bienestar de los y las profesionales de la traducción, la interpretación y la terminología",
       "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
@@ -2287,24 +2305,6 @@
       "articleUrl": "https://doi.org/10.1075/babel.25228.chi",
       "keywords": [],
       "abstract": "Abstract This research examines the use of paratextual features in the Arabic translations of Toni Morrison’s novel, The Bluest Eye , specifically analyzing the translations by Kamel Youssef Hessein (Target Text 1, TT1) and Fadel Al-Sultani (Target Text 2, TT2). Paratextual components such as titles, book covers, introductions, forewords, and footnotes significantly influence readers’ understanding and interpretation, especially in literary translations. The aim of this study is to examine how p",
-      "volumeStr": "",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/babel.25103.par",
-      "title": "The description of culture-specific lexical items in bilingual dictionaries",
-      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
-      "journalId": "babel",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/babel",
-      "pubDate": "2026-05-05T00:00:00.000Z",
-      "pubDateStr": "2026-05-05",
-      "authors": "Park Subin",
-      "doi": "10.1075/babel.25103.par",
-      "articleUrl": "https://doi.org/10.1075/babel.25103.par",
-      "keywords": [],
-      "abstract": "Abstract This study examines the treatment of culture-specific lexical items in bilingual dictionaries, focusing on Mikhail Pavlovich Putsillo’s 1874 Russian–Korean Dictionary. These elements represent unique cultural concepts and present challenges to lexicographers due to their complex connotations and the absence of direct equivalents. Putsillo addressed these challenges through direct translation, paraphrasing, and cultural explanations, each possessing distinct strengths and weaknesses. Alt",
       "volumeStr": "",
       "source": "crossref"
     },
