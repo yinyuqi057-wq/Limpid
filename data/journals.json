@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T03:36:52.578+08:00",
-  "generated_ts": 1793907412578,
+  "generated_at": "2026-11-06T13:28:28.048+08:00",
+  "generated_ts": 1793942908048,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,42 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2741227",
+      "title": "The translation movement of modern Arabic literature into Swedish",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-11-05T00:00:00.000Z",
+      "pubDateStr": "2026-11-05",
+      "authors": "Izwaini Sattar",
+      "doi": "10.1080/0907676x.2026.2741227",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2741227",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-20",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2754016",
+      "title": "Layered framing: Warren Buffett’s shareholder letters, essays and four Korean editions",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-11-05T00:00:00.000Z",
+      "pubDateStr": "2026-11-05",
+      "authors": "Yim Jin",
+      "doi": "10.1080/0907676x.2026.2754016",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2754016",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-19",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2754014",
       "title": "Dubbing and transnational film plasticity: Korea–Hong Kong cinema from the 1950s to the 1980s",
@@ -383,24 +419,6 @@
       "source": "crossref"
     },
     {
-      "id": "10.1080/0907676x.2026.2733050",
-      "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-10-02T00:00:00.000Z",
-      "pubDateStr": "2026-10-02",
-      "authors": "Paloposki Outi",
-      "doi": "10.1080/0907676x.2026.2733050",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2733050",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
       "id": "10.1080/0907676x.2026.2734470",
       "title": "Cultural consolidation through translation: criticism of trivial literature and translations of literary criticism in the Slovene journal Ljubljanski Zvon (1900–1941)",
       "journal": "Perspectives",
@@ -416,6 +434,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-17",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2733050",
+      "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-10-02T00:00:00.000Z",
+      "pubDateStr": "2026-10-02",
+      "authors": "Paloposki Outi",
+      "doi": "10.1080/0907676x.2026.2733050",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2733050",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-18",
       "source": "crossref"
     },
     {
@@ -470,42 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-20",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2724254",
-      "title": "Shaping the register in crowdsourced crisis translation: an actor-network approach",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-09-04T00:00:00.000Z",
-      "pubDateStr": "2026-09-04",
-      "authors": "Yuan Rongjie",
-      "doi": "10.1080/0907676x.2026.2724254",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2724254",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-20",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2695708",
-      "title": "The accuracy of automatic subtitles in Basque: a comparison between four speech-to-text programs",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-09-04T00:00:00.000Z",
-      "pubDateStr": "2026-09-04",
-      "authors": "Ros-Abaurrea Alejandro, Tamayo Ana",
-      "doi": "10.1080/0907676x.2026.2695708",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2695708",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-22",
       "source": "crossref"
     },
     {
@@ -1859,6 +1859,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/babel.26265.tao",
+      "title": "Review of Zhang (2026): Literary Translators’ Brand-Building in Contemporary Chinese-English Translation",
+      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
+      "journalId": "babel",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/babel",
+      "pubDate": "2026-11-06T00:00:00.000Z",
+      "pubDateStr": "2026-11-06",
+      "authors": "Tao Jin",
+      "doi": "10.1075/babel.26265.tao",
+      "articleUrl": "https://doi.org/10.1075/babel.26265.tao",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/babel.00415.elb",
       "title": "El bienestar de los y las profesionales de la traducción, la interpretación y la terminología",
       "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
@@ -2288,24 +2306,6 @@
       "keywords": [],
       "abstract": "Abstract This study examines the treatment of culture-specific lexical items in bilingual dictionaries, focusing on Mikhail Pavlovich Putsillo’s 1874 Russian–Korean Dictionary. These elements represent unique cultural concepts and present challenges to lexicographers due to their complex connotations and the absence of direct equivalents. Putsillo addressed these challenges through direct translation, paraphrasing, and cultural explanations, each possessing distinct strengths and weaknesses. Alt",
       "volumeStr": "",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/babel.25207.jar",
-      "title": "Bridging meaning and context",
-      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
-      "journalId": "babel",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/babel",
-      "pubDate": "2026-05-04T00:00:00.000Z",
-      "pubDateStr": "2026-05-04",
-      "authors": "Jarrah Marwan, Ali Sukayna",
-      "doi": "10.1075/babel.25207.jar",
-      "articleUrl": "https://doi.org/10.1075/babel.25207.jar",
-      "keywords": [],
-      "abstract": "Abstract This study examines explicature construction in the English translation of the Qur’an, focusing on parenthetical insertions in the Hilali-Khan version. These additions make implicit meanings explicit, guiding readers through culturally and theologically dense material. Applying Huang’s (2014) framework, the analysis categorizes these insertions into five types: disambiguation, reference resolution, saturation, free enrichment, and ad hoc concept construction. Each type reflects a specif",
-      "volumeStr": "Vol. 72(4), pp. 497-522",
       "source": "crossref"
     },
     {
@@ -2759,6 +2759,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/target.00042.zwi",
+      "title": "Introducing labour (and work) in translation and interpreting",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-11-06T00:00:00.000Z",
+      "pubDateStr": "2026-11-06",
+      "authors": "Zwischenberger Cornelia, Alfer Alexa",
+      "doi": "10.1075/target.00042.zwi",
+      "articleUrl": "https://doi.org/10.1075/target.00042.zwi",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/target.25176.kum",
       "title": "Disentangling cognitive and emotional load in interpreting",
       "journal": "Target. International Journal of Translation Studies",
@@ -3188,24 +3206,6 @@
       "keywords": [],
       "abstract": "Abstract The impact of foreignized elements on child and adult readers’ comprehension of translated children’s picture books is a complex matter with numerous confounding variables. This study investigates how child and adult readers process foreignized elements in translated Chinese picture books. In an eye-tracking experiment, we found that while foreignized lexical items consistently affected the real-time processing at the initial stage, whether they induced processing difficulty during late",
       "volumeStr": "Vol. 38(2), pp. 260-295",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/target.24139.gui",
-      "title": "Mediated spectatorial views in the arts and beyond",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2026-01-29T00:00:00.000Z",
-      "pubDateStr": "2026-01-29",
-      "authors": "Guillot Marie-Noëlle",
-      "doi": "10.1075/target.24139.gui",
-      "articleUrl": "https://doi.org/10.1075/target.24139.gui",
-      "keywords": [],
-      "abstract": "Abstract As concise self-contained units of meaning at the interface of artworks and their publics, artwork titles give important insights into what is at stake in mediation in transcultural settings, under particular contextual conditions: stable visual input with cross-over of languages and cultures, and thus activation of multiple frames of reference and expectations for audiences. They are revealing microcosms of morphosyntactic, lexical and pragmalinguistic triggers of spectatorial response",
-      "volumeStr": "Vol. 38(2), pp. 163-199",
       "source": "crossref"
     },
     {
