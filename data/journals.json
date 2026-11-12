@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T14:03:37.206+08:00",
-  "generated_ts": 1794463417206,
+  "generated_at": "2026-11-13T03:37:55.315+08:00",
+  "generated_ts": 1794512275315,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -59,6 +59,24 @@
   },
   "articles": [
     {
+      "id": "10.1080/0907676x.2026.2755822",
+      "title": "The role and impact of modern Greek literary periodicals in twentieth century Greek American literary market",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-11-11T00:00:00.000Z",
+      "pubDateStr": "2026-11-11",
+      "authors": "Georgiou Nadia",
+      "doi": "10.1080/0907676x.2026.2755822",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2755822",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-22",
+      "source": "crossref"
+    },
+    {
       "id": "10.1080/0907676x.2026.2758341",
       "title": "Translating humour in the age of OTT platforms: from translation to anticipatory writing?",
       "journal": "Perspectives",
@@ -74,6 +92,24 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-17",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1080/0907676x.2026.2758344",
+      "title": "Generative AI as epistemic technology and post-editing as a form of repair",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-11-11T00:00:00.000Z",
+      "pubDateStr": "2026-11-11",
+      "authors": "Trklja Aleksandar",
+      "doi": "10.1080/0907676x.2026.2758344",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2758344",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-20",
       "source": "crossref"
     },
     {
@@ -470,42 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2734472",
-      "title": "Translation as cultural mediation in periodicals: Virginia Woolf’s essays in Figaro , 1929–1932",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-10-01T00:00:00.000Z",
-      "pubDateStr": "2026-10-01",
-      "authors": "Federici Annalisa",
-      "doi": "10.1080/0907676x.2026.2734472",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2734472",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2724246",
-      "title": "Market concentration and professional practice in the language services industry: a quantitative analysis",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-09-15T00:00:00.000Z",
-      "pubDateStr": "2026-09-15",
-      "authors": "Iglesias Lara Adriana María, Corpas Pastor Gloria",
-      "doi": "10.1080/0907676x.2026.2724246",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2724246",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-27",
       "source": "crossref"
     },
     {
