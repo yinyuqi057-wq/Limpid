@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T14:15:54.567+08:00",
-  "generated_ts": 1794982554567,
+  "generated_at": "2026-11-19T04:03:57.792+08:00",
+  "generated_ts": 1795032237792,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -1859,6 +1859,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/babel.25010.tok",
+      "title": "From Türkiye to world literature",
+      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
+      "journalId": "babel",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/babel",
+      "pubDate": "2026-11-18T00:00:00.000Z",
+      "pubDateStr": "2026-11-18",
+      "authors": "Tokalak Baltacı Filiz, Durmuş Hilal Erkazancı",
+      "doi": "10.1075/babel.25010.tok",
+      "articleUrl": "https://doi.org/10.1075/babel.25010.tok",
+      "keywords": [],
+      "abstract": "Abstract This paper examines the transformation of Nedim Gürsel’s image from that of a controversial author in Türkiye to a universal voice in world literature. Identifying Allah’ın Kızları as a born-translated work written by Gürsel for global circulation, the textual analysis explores how the French translation, Les Filles d’Allah , examines the source text’s born-translated composition. The extratextual analysis explains the varying accumulation of Gürsel’s symbolic capital in national and in",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/babel.26263.xia",
       "title": "Review of Huang (2022): Chinese Whispers: Toward a Transpacific Poetics",
       "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
@@ -2287,24 +2305,6 @@
       "articleUrl": "https://doi.org/10.1075/babel.26022.ho",
       "keywords": [],
       "abstract": "",
-      "volumeStr": "",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/babel.25143.tal",
-      "title": "Why do literary translation studies in African contexts matter?",
-      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
-      "journalId": "babel",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/babel",
-      "pubDate": "2026-05-12T00:00:00.000Z",
-      "pubDateStr": "2026-05-12",
-      "authors": "Talento Serena",
-      "doi": "10.1075/babel.25143.tal",
-      "articleUrl": "https://doi.org/10.1075/babel.25143.tal",
-      "keywords": [],
-      "abstract": "Abstract In spite of the multi- and plurilingualism, the antiquity of the practice on the continent, the role of literary translation in particular moments of social change and the increasing institutionalization of translation studies on the continent, the immense potential of African contexts, especially sub-Saharan and Afrodiasporic contexts, for translation studies remains to be more fully explored and better represented in international debates on translation studies. In this article, I ill",
       "volumeStr": "",
       "source": "crossref"
     },
