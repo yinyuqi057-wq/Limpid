@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T14:16:54.388+08:00",
-  "generated_ts": 1795069014388,
+  "generated_at": "2026-11-20T04:03:17.241+08:00",
+  "generated_ts": 1795118597241,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -2759,6 +2759,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/target.25152.was",
+      "title": "Unstill lives",
+      "journal": "Target. International Journal of Translation Studies",
+      "journalId": "target",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/target",
+      "pubDate": "2026-11-19T00:00:00.000Z",
+      "pubDateStr": "2026-11-19",
+      "authors": "Washbourne Kelly",
+      "doi": "10.1075/target.25152.was",
+      "articleUrl": "https://doi.org/10.1075/target.25152.was",
+      "keywords": [],
+      "abstract": "Abstract In this onomastic study I consider art titles as attached to mobile assets, therefore constituting highly unstable source and target texts. As titles can issue from the artist or other decentralized sources, they may have both referential and semantic purposes or origins, change over their histories, and circulate with alternate, informal, and former titles, complicating their identities and functions. Inaccuracies and datedness are phenomena that attend painting titles, but whether the",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/target.00043.fir",
       "title": "Governing language labour",
       "journal": "Target. International Journal of Translation Studies",
@@ -3188,24 +3206,6 @@
       "keywords": [],
       "abstract": "Abstract Translator style is one of the two major focuses of corpus-based translation studies, alongside features of translated language. A critical examination of existing definitions and studies of translator style reveals that two crucial dimensions of the concept tend to be neglected: (1) the potential for a translator’s way of translating to vary across their works and change over time, and (2) specific aspects of a translator’s style that are similar to those of other translators. This art",
       "volumeStr": "Vol. 38(3), pp. 354-390",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/target.25024.che",
-      "title": "“Arrested flight” of Phoenix",
-      "journal": "Target. International Journal of Translation Studies",
-      "journalId": "target",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/target",
-      "pubDate": "2026-04-16T00:00:00.000Z",
-      "pubDateStr": "2026-04-16",
-      "authors": "Chen Wenhao",
-      "doi": "10.1075/target.25024.che",
-      "articleUrl": "https://doi.org/10.1075/target.25024.che",
-      "keywords": [],
-      "abstract": "Abstract The blended concept of translaboration aims to explore the reciprocal engagement of translation and collaboration in each other’s enterprises. This study conceptualizes Xu Bing’s art installation Phoenix from the translaborative perspective as an artistic translation of China’s social realities and examines how Xu performs his subjectivity as an ‘artistranslator’ during the translation. Furthermore, since the production of Phoenix involves various human and non-human collaborators, and ",
-      "volumeStr": "Vol. 38(3), pp. 331-353",
       "source": "crossref"
     },
     {
