@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T14:01:17.711+08:00",
-  "generated_ts": 1795154477711,
+  "generated_at": "2026-11-21T03:40:36.425+08:00",
+  "generated_ts": 1795203636425,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,24 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2755812",
+      "title": "Mediating the global circulation of Turkish drama: toward a concept of translational soft power",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-11-19T00:00:00.000Z",
+      "pubDateStr": "2026-11-19",
+      "authors": "Özcan Dost Betül",
+      "doi": "10.1080/0907676x.2026.2755812",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2755812",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-25",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2760376",
       "title": "The platform afterlife of Confucius: retranslational fragments, apparatuses, and authority",
@@ -488,24 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-8",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2733050",
-      "title": "Transmitting format, content and practices in early newspaper translation in Finland. ‘Tales from the Eastern Lands’ as a case in point",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-10-02T00:00:00.000Z",
-      "pubDateStr": "2026-10-02",
-      "authors": "Paloposki Outi",
-      "doi": "10.1080/0907676x.2026.2733050",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2733050",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-18",
       "source": "crossref"
     },
     {
@@ -1859,6 +1859,42 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/babel.26266.han",
+      "title": "Review of Chambers & Demir (2024): Translation and Decolonisation: Interdisciplinary Approaches",
+      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
+      "journalId": "babel",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/babel",
+      "pubDate": "2026-11-20T00:00:00.000Z",
+      "pubDateStr": "2026-11-20",
+      "authors": "Han Lili",
+      "doi": "10.1075/babel.26266.han",
+      "articleUrl": "https://doi.org/10.1075/babel.26266.han",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
+      "id": "10.1075/babel.26084.bai",
+      "title": "Mo Yan as a post-translation rewriter",
+      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
+      "journalId": "babel",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/babel",
+      "pubDate": "2026-11-20T00:00:00.000Z",
+      "pubDateStr": "2026-11-20",
+      "authors": "Bai Yunfei",
+      "doi": "10.1075/babel.26084.bai",
+      "articleUrl": "https://doi.org/10.1075/babel.26084.bai",
+      "keywords": [],
+      "abstract": "Abstract This article draws on the Chinese writer Mo Yan’s 1983 retellings of Julio Cortázar’s short story “La autopista del sur” and Carson McCullers’s novella “The Ballad of the Sad Café” to shed light on aspects of his early engagement with world literature. I argue that Mo Yan’s borrowing from twentieth-century modernist writers in the Americas occurred in two distinct phases. Initially, his attempts at indigenizing Cortázar and McCullers in 1983 resulted in two socialist-realist tales beref",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/babel.25010.tok",
       "title": "From Türkiye to world literature",
       "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
@@ -2270,42 +2306,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "Vol. 72(4), pp. 441-450",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/babel.00412.fit",
-      "title": "La traduction automatique à l’ère de l’IA",
-      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
-      "journalId": "babel",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/babel",
-      "pubDate": "2026-06-01T00:00:00.000Z",
-      "pubDateStr": "2026-06-01",
-      "authors": "Author info unavailable",
-      "doi": "10.1075/babel.00412.fit",
-      "articleUrl": "https://doi.org/10.1075/babel.00412.fit",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 72(4), pp. 451-460",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/babel.26022.ho",
-      "title": "Review of Da (2025): The Chinese Tragedy of King Lear",
-      "journal": "Babel. Revue internationale de la traduction / International Journal of Translation / Revista Internacional de Traducción",
-      "journalId": "babel",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/babel",
-      "pubDate": "2026-05-12T00:00:00.000Z",
-      "pubDateStr": "2026-05-12",
-      "authors": "Ho Tammy Lai-Ming",
-      "doi": "10.1075/babel.26022.ho",
-      "articleUrl": "https://doi.org/10.1075/babel.26022.ho",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "",
       "source": "crossref"
     },
     {
