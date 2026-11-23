@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T14:07:58.422+08:00",
-  "generated_ts": 1795414078422,
+  "generated_at": "2026-11-24T07:29:12.726+08:00",
+  "generated_ts": 1795476552726,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -1999,7 +1999,7 @@
       "articleUrl": "https://doi.org/10.1075/babel.00415.elb",
       "keywords": [],
       "abstract": "",
-      "volumeStr": "",
+      "volumeStr": "Vol. 72(5), pp. 608-618",
       "source": "crossref"
     },
     {
@@ -2017,7 +2017,7 @@
       "articleUrl": "https://doi.org/10.1075/babel.00416.leb",
       "keywords": [],
       "abstract": "",
-      "volumeStr": "",
+      "volumeStr": "Vol. 72(5), pp. 598-607",
       "source": "crossref"
     },
     {
@@ -2035,7 +2035,7 @@
       "articleUrl": "https://doi.org/10.1075/babel.00414.the",
       "keywords": [],
       "abstract": "",
-      "volumeStr": "",
+      "volumeStr": "Vol. 72(5), pp. 589-597",
       "source": "crossref"
     },
     {
