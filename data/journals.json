@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T07:29:12.726+08:00",
-  "generated_ts": 1795476552726,
+  "generated_at": "2026-11-24T16:45:55.193+08:00",
+  "generated_ts": 1795509955193,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,24 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2760375",
+      "title": "Visual integration in simultaneous interpreting: an eye-tracking study that adapts inattentional blindness and selective visual attention paradigms",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-11-23T00:00:00.000Z",
+      "pubDateStr": "2026-11-23",
+      "authors": "Xu Xu",
+      "doi": "10.1080/0907676x.2026.2760375",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2760375",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-21",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2755812",
       "title": "Mediating the global circulation of Turkish drama: toward a concept of translational soft power",
@@ -488,24 +506,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2697549",
-      "title": "Mapping an emerging terrain: a selective review of transfiction studies (from 2005 to 2024)",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-10-02T00:00:00.000Z",
-      "pubDateStr": "2026-10-02",
-      "authors": "Xie Pan, Song Meihua",
-      "doi": "10.1080/0907676x.2026.2697549",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2697549",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-8",
       "source": "crossref"
     },
     {
