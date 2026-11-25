@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T15:21:00.961+08:00",
-  "generated_ts": 1795591260961,
+  "generated_at": "2026-11-26T05:10:54.718+08:00",
+  "generated_ts": 1795641054718,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -58,6 +58,24 @@
     ]
   },
   "articles": [
+    {
+      "id": "10.1080/0907676x.2026.2757653",
+      "title": "Lexical borrowing and the nationalist voice in the Early Modern English translation of the Spanish chronicle Conquista de Mexico",
+      "journal": "Perspectives",
+      "journalId": "perspectives",
+      "publisher": "Taylor & Francis",
+      "publisherGroup": "tf",
+      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
+      "pubDate": "2026-11-25T00:00:00.000Z",
+      "pubDateStr": "2026-11-25",
+      "authors": "Queiroz de Barros Rita",
+      "doi": "10.1080/0907676x.2026.2757653",
+      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2757653",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "pp. 1-15",
+      "source": "crossref"
+    },
     {
       "id": "10.1080/0907676x.2026.2760375",
       "title": "Visual integration in simultaneous interpreting: an eye-tracking study that adapts inattentional blindness and selective visual attention paradigms",
@@ -485,24 +503,6 @@
       "authors": "Bentley-Hussey Dominic",
       "doi": "10.1080/0907676x.2026.2733045",
       "articleUrl": "https://doi.org/10.1080/0907676x.2026.2733045",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "pp. 1-18",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1080/0907676x.2026.2733049",
-      "title": "Specific (cultural) translation practices for the circulation of ideas: Raymond Williams in Spanish-language periodicals",
-      "journal": "Perspectives",
-      "journalId": "perspectives",
-      "publisher": "Taylor & Francis",
-      "publisherGroup": "tf",
-      "siteUrl": "https://www.tandfonline.com/journals/rmps20",
-      "pubDate": "2026-10-02T00:00:00.000Z",
-      "pubDateStr": "2026-10-02",
-      "authors": "Gómez Blanca Juan",
-      "doi": "10.1080/0907676x.2026.2733049",
-      "articleUrl": "https://doi.org/10.1080/0907676x.2026.2733049",
       "keywords": [],
       "abstract": "",
       "volumeStr": "pp. 1-18",
@@ -2309,6 +2309,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/intp.00140.che",
+      "title": "Evaluating a computer-assisted consecutive interpreting workflow with ASR and MT support",
+      "journal": "Interpreting. International Journal of Research and Practice in Interpreting",
+      "journalId": "interpreting",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/intp",
+      "pubDate": "2026-11-25T00:00:00.000Z",
+      "pubDateStr": "2026-11-25",
+      "authors": "Chen Sijia",
+      "doi": "10.1075/intp.00140.che",
+      "articleUrl": "https://doi.org/10.1075/intp.00140.che",
+      "keywords": [],
+      "abstract": "Abstract This study investigates a computer-assisted consecutive interpreting (CACI) workflow integrating automatic speech recognition and machine translation, examining its effects on interpreting quality and perceived cognitive load. The participants were 31 Chinese L1/English L2 master’s students enrolled in an interpreting programme at a foreign studies university in China. Using a within-subjects design, they completed interpreting tasks under two modes — conventional consecutive interpreti",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/intp.00139.xin",
       "title": "Auditory short-term memory advantages in interpreting",
       "journal": "Interpreting. International Journal of Research and Practice in Interpreting",
@@ -2738,24 +2756,6 @@
       "keywords": [],
       "abstract": "",
       "volumeStr": "Vol. 27(1), pp. 151-156",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/intp.00116.jan",
-      "title": "Ear–voice span in simultaneous interpreting",
-      "journal": "Interpreting. International Journal of Research and Practice in Interpreting",
-      "journalId": "interpreting",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/intp",
-      "pubDate": "2025-02-13T00:00:00.000Z",
-      "pubDateStr": "2025-02-13",
-      "authors": "Janikowski Przemysław, Chmiel Agnieszka",
-      "doi": "10.1075/intp.00116.jan",
-      "articleUrl": "https://doi.org/10.1075/intp.00116.jan",
-      "keywords": [],
-      "abstract": "Abstract Ear–voice span (EVS) has been recognised as reflecting the cognitive processes involved in simultaneous interpreting. This article reports on a study examining the influence on fluctuations in EVS of text-specific factors, interpreter-specific factors and individual variation. We used naturalistic data from the Polish Interpreting Corpus (PINC), a 20,000-token bidirectional Polish–English corpus of interpretations from the European Parliament. We fitted two linear mixed-effects models a",
-      "volumeStr": "Vol. 27(1), pp. 28-51",
       "source": "crossref"
     },
     {
@@ -3209,6 +3209,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/tis.21078.zhu",
+      "title": "A systematic review of eye-tracking to investigate cognitive processes in interpreting",
+      "journal": "Translation and Interpreting Studies",
+      "journalId": "tis",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/tis",
+      "pubDate": "2026-11-25T00:00:00.000Z",
+      "pubDateStr": "2026-11-25",
+      "authors": "Zhu Xuelian (Rachel), Aryadoust Vahid",
+      "doi": "10.1075/tis.21078.zhu",
+      "articleUrl": "https://doi.org/10.1075/tis.21078.zhu",
+      "keywords": [],
+      "abstract": "Abstract Over the past decade, interest has grown in applying advanced technologies such as eye-tracking to investigate and measure interpreters’ cognitive processes. Gaze measures, including fixation, saccades, and pupil size, have been used to examine various interpreting modes. This article systematically reviews 32 eye-tracking studies of interpreting (published 1981–2021) identified through Web of Science, Scopus, and Google Scholar to examine (i) how measures of interpreters’ gaze behavior",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/tis.00068.tan",
       "title": "How creative can translation be(come)?",
       "journal": "Translation and Interpreting Studies",
@@ -3638,24 +3656,6 @@
       "keywords": [],
       "abstract": "Abstract For healthcare information to be accessible and effective, both quality translations and their effective dissemination are necessary. This article investigates the dissemination of healthcare translations in the diglossic context of Arabic speakers in Australia and the impact that dissemination medium and Arabic variant have on comprehension and intent. Four groups of Arabic speakers with low English proficiency were exposed to one of the following options and asked to complete a print ",
       "volumeStr": "Vol. 20(1), pp. 105-128",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/tis.23095.gin",
-      "title": "Promoting collaboration between interpreters and speech-language pathologists",
-      "journal": "Translation and Interpreting Studies",
-      "journalId": "tis",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/tis",
-      "pubDate": "2025-06-16T00:00:00.000Z",
-      "pubDateStr": "2025-06-16",
-      "authors": "Ginsberg-Jaeckle Matt, Babbitt Edna M., Quique Yina M., Larkin Elissa, Escárcega Sylvia, Cherney Leora R.",
-      "doi": "10.1075/tis.23095.gin",
-      "articleUrl": "https://doi.org/10.1075/tis.23095.gin",
-      "keywords": [],
-      "abstract": "Abstract The notion of an invisible interpreter in medical interpreting can conflict with the goals of the Speech-Language Pathologist (SLP) during aphasia assessment. This study trained interpreters at an urban rehabilitation hospital in the U.S. regarding the purpose of aphasia assessments, examined how their role changed to become more visible, and evaluated the preliminary impact of the training. Eight interpreters participated in two SLP aphasia assessments for native Spanish speakers with ",
-      "volumeStr": "Vol. 20(1), pp. 78-104",
       "source": "crossref"
     }
   ]
