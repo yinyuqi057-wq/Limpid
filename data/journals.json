@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T15:09:43.614+08:00",
-  "generated_ts": 1795676983614,
+  "generated_at": "2026-11-27T05:00:30.199+08:00",
+  "generated_ts": 1795726830199,
   "metadata": {
     "total_articles": 200,
     "source_counts": {
@@ -2309,6 +2309,24 @@
       "source": "crossref"
     },
     {
+      "id": "10.1075/intp.00141.foo",
+      "title": "Review of Rosendo (2026): Interpreting in armed conflict: Lessons from the field",
+      "journal": "Interpreting. International Journal of Research and Practice in Interpreting",
+      "journalId": "interpreting",
+      "publisher": "John Benjamins",
+      "publisherGroup": "jb",
+      "siteUrl": "https://benjamins.com/catalog/intp",
+      "pubDate": "2026-11-26T00:00:00.000Z",
+      "pubDateStr": "2026-11-26",
+      "authors": "Footitt Hilary",
+      "doi": "10.1075/intp.00141.foo",
+      "articleUrl": "https://doi.org/10.1075/intp.00141.foo",
+      "keywords": [],
+      "abstract": "",
+      "volumeStr": "",
+      "source": "crossref"
+    },
+    {
       "id": "10.1075/intp.00140.che",
       "title": "Evaluating a computer-assisted consecutive interpreting workflow with ASR and MT support",
       "journal": "Interpreting. International Journal of Research and Practice in Interpreting",
@@ -2738,24 +2756,6 @@
       "keywords": [],
       "abstract": "Abstract Foreign-accented speech is one of the factors that add to the cognitive load exerted during conference interpreting. In the present study, we investigated the effect of different accents on speech processing during this task in addition to the respective roles played by language proficiency and expertise. We therefore designed a pupillometric study in which we tested both students and professional interpreters. The results show that, throughout the trial, the cognitive effort associated",
       "volumeStr": "Vol. 27(1), pp. 52-86",
-      "source": "crossref"
-    },
-    {
-      "id": "10.1075/intp.00115.run",
-      "title": "Review of Ruiz Rosendo & Baigorri-Jalón (2023): Towards an atlas of the history of interpreting: Voices from around the world",
-      "journal": "Interpreting. International Journal of Research and Practice in Interpreting",
-      "journalId": "interpreting",
-      "publisher": "John Benjamins",
-      "publisherGroup": "jb",
-      "siteUrl": "https://benjamins.com/catalog/intp",
-      "pubDate": "2025-02-14T00:00:00.000Z",
-      "pubDateStr": "2025-02-14",
-      "authors": "Rundle Christopher",
-      "doi": "10.1075/intp.00115.run",
-      "articleUrl": "https://doi.org/10.1075/intp.00115.run",
-      "keywords": [],
-      "abstract": "",
-      "volumeStr": "Vol. 27(1), pp. 151-156",
       "source": "crossref"
     },
     {
